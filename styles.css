@@ -104,6 +104,13 @@ code {
   box-shadow: 0 14px 40px rgba(0,0,0,0.32);
 }
 
+.app-card__icon--emoji {
+  display: grid;
+  place-items: center;
+  font-size: 46px;
+  background: linear-gradient(135deg, rgba(105,230,163,0.95), rgba(104,167,255,0.95));
+}
+
 .app-card__topline {
   display: flex;
   align-items: center;

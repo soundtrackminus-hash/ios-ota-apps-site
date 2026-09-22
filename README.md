@@ -2,36 +2,23 @@
 
 Статический сайт-каталог iOS-приложений для установки через `itms-services` и `manifest.plist`.
 
-## Структура
+Сайт: https://soundtrackminus-hash.github.io/ios-ota-apps-site/
 
-```text
-.
-├── index.html
-├── styles.css
-├── icons/
-│   └── hz-poster.svg
-└── apps/
-    └── hz-poster/
-        └── manifest.plist
-```
+## Приложения
 
-## Как пользоваться
+- Яндекс Банк 0.234.4 — `com.yandex.fintech.bank-app` — `apps/yandex-pay-0-234-4/manifest.plist`
+- SlicingDices 1.2.1 — `com.slicingdice.game` — `apps/slicingdices/manifest.plist`
+- Relaxia 2.6 — `com.payIX.RelaxToSleepPaid` — `apps/relaxia/manifest.plist`
+- MAX 26.17.3 — `ru.oneme.app` — `apps/max/manifest.plist`
+- FileHub 10.3.5 — `com.imoreapps.portabledisk` — `apps/filehub/manifest.plist`
 
-1. Создай GitHub-репозиторий и включи GitHub Pages для ветки `main`.
-2. Загрузи `.ipa` в GitHub Releases.
-3. В `apps/hz-poster/manifest.plist` уже указаны данные приложения из IPA:
-   - `https://github.com/soundtrackminus-hash/ios-ota-apps-site/releases/download/v1.2.1/SlicingDices.ipa`
-   - `com.slicingdice.game`
-   - `1.2.1`
-   - `SlicingDices`
-4. В `index.html` замени ссылку установки:
+## Схема
 
-```text
-itms-services://?action=download-manifest&url=https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/hz-poster/manifest.plist
-```
+- Сайт и manifest-файлы: GitHub Pages.
+- IPA-файлы: GitHub Releases.
+- Кнопка установки ведёт на `itms-services://?action=download-manifest&url=https://.../manifest.plist`.
 
 ## Важно
 
-- Все ссылки на manifest, IPA и иконки должны быть HTTPS.
-- Ссылка на manifest должна быть через GitHub Pages, не `github.com/.../blob/...`.
+- Все ссылки должны быть HTTPS.
 - IPA должен быть подписан корректным сертификатом/provisioning profile, иначе iPhone может скачать файл, но не установить приложение.

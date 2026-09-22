@@ -12,32 +12,109 @@
     <div class="hero__badge">iOS OTA Install</div>
     <h1>Каталог iPhone-приложений</h1>
     <p>
-      Страница для установки IPA через Apple-ссылку
-      <code>itms-services</code>. Сайт и манифесты можно хранить на GitHub Pages,
-      а IPA-файлы — в GitHub Releases.
+      Открой эту страницу на iPhone и нажми «Установить на iPhone» у нужного приложения.
+      Установка идёт через Apple-ссылку <code>itms-services</code> и отдельный <code>manifest.plist</code>.
     </p>
   </header>
 
   <main>
     <section class="notice">
-      <strong>Важно:</strong> установка сработает только если IPA правильно подписан
-      и iPhone доверяет сертификату/профилю. Сам сайт не обходит ограничения Apple.
+      <strong>Важно:</strong> если приложение не устанавливается или не открывается,
+      причина обычно в подписи IPA, сертификате или профиле доверия на iPhone.
     </section>
 
     <section class="apps" aria-label="Список приложений">
       <article class="app-card">
-        <img class="app-card__icon" src="icons/hz-poster.svg" alt="Иконка HZ Poster">
+        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">💳</div>
+        <div class="app-card__body">
+          <div class="app-card__topline">
+            <h2>Яндекс Банк</h2>
+            <span class="version">v0.234.4</span>
+          </div>
+          <p>Установка IPA на iPhone через сайт.</p>
+          <dl class="meta">
+            <div><dt>Bundle ID</dt><dd>com.yandex.fintech.bank-app</dd></div>
+            <div><dt>Размер</dt><dd>87.1 МБ</dd></div>
+            <div><dt>Manifest</dt><dd><code>apps/yandex-pay-0-234-4/manifest.plist</code></dd></div>
+            <div><dt>Файл</dt><dd><code>yandex-pay-0-234-4.ipa</code></dd></div>
+          </dl>
+          <a class="install-button" href="itms-services://?action=download-manifest&url=https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/yandex-pay-0-234-4/manifest.plist">
+            Установить на iPhone
+          </a>
+        </div>
+      </article>
+      <article class="app-card">
+        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">🎲</div>
         <div class="app-card__body">
           <div class="app-card__topline">
             <h2>SlicingDices</h2>
             <span class="version">v1.2.1</span>
           </div>
-          <p>Приложение для установки на iPhone через сайт</p>
+          <p>Установка IPA на iPhone через сайт.</p>
           <dl class="meta">
             <div><dt>Bundle ID</dt><dd>com.slicingdice.game</dd></div>
-            <div><dt>Manifest</dt><dd><code>apps/hz-poster/manifest.plist</code></dd></div>
+            <div><dt>Размер</dt><dd>55.5 МБ</dd></div>
+            <div><dt>Manifest</dt><dd><code>apps/slicingdices/manifest.plist</code></dd></div>
+            <div><dt>Файл</dt><dd><code>slicingdices.ipa</code></dd></div>
           </dl>
-          <a class="install-button" href="itms-services://?action=download-manifest&url=https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/hz-poster/manifest.plist">
+          <a class="install-button" href="itms-services://?action=download-manifest&url=https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/slicingdices/manifest.plist">
+            Установить на iPhone
+          </a>
+        </div>
+      </article>
+      <article class="app-card">
+        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">🌙</div>
+        <div class="app-card__body">
+          <div class="app-card__topline">
+            <h2>Relaxia</h2>
+            <span class="version">v2.6</span>
+          </div>
+          <p>Установка IPA на iPhone через сайт.</p>
+          <dl class="meta">
+            <div><dt>Bundle ID</dt><dd>com.payIX.RelaxToSleepPaid</dd></div>
+            <div><dt>Размер</dt><dd>79.2 МБ</dd></div>
+            <div><dt>Manifest</dt><dd><code>apps/relaxia/manifest.plist</code></dd></div>
+            <div><dt>Файл</dt><dd><code>relaxia.ipa</code></dd></div>
+          </dl>
+          <a class="install-button" href="itms-services://?action=download-manifest&url=https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/relaxia/manifest.plist">
+            Установить на iPhone
+          </a>
+        </div>
+      </article>
+      <article class="app-card">
+        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">💬</div>
+        <div class="app-card__body">
+          <div class="app-card__topline">
+            <h2>MAX</h2>
+            <span class="version">v26.17.3</span>
+          </div>
+          <p>Установка IPA на iPhone через сайт.</p>
+          <dl class="meta">
+            <div><dt>Bundle ID</dt><dd>ru.oneme.app</dd></div>
+            <div><dt>Размер</dt><dd>86.7 МБ</dd></div>
+            <div><dt>Manifest</dt><dd><code>apps/max/manifest.plist</code></dd></div>
+            <div><dt>Файл</dt><dd><code>max.ipa</code></dd></div>
+          </dl>
+          <a class="install-button" href="itms-services://?action=download-manifest&url=https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/max/manifest.plist">
+            Установить на iPhone
+          </a>
+        </div>
+      </article>
+      <article class="app-card">
+        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">📁</div>
+        <div class="app-card__body">
+          <div class="app-card__topline">
+            <h2>FileHub</h2>
+            <span class="version">v10.3.5</span>
+          </div>
+          <p>Установка IPA на iPhone через сайт.</p>
+          <dl class="meta">
+            <div><dt>Bundle ID</dt><dd>com.imoreapps.portabledisk</dd></div>
+            <div><dt>Размер</dt><dd>60.5 МБ</dd></div>
+            <div><dt>Manifest</dt><dd><code>apps/filehub/manifest.plist</code></dd></div>
+            <div><dt>Файл</dt><dd><code>filehub.ipa</code></dd></div>
+          </dl>
+          <a class="install-button" href="itms-services://?action=download-manifest&url=https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/filehub/manifest.plist">
             Установить на iPhone
           </a>
         </div>
@@ -45,17 +122,18 @@
     </section>
 
     <section class="howto">
-      <h2>Что заменить перед публикацией</h2>
+      <h2>Как пользоваться</h2>
       <ol>
-        <li>В <code>index.html</code> замени <code>USERNAME</code> и <code>REPOSITORY</code> в ссылке установки.</li>
-        <li>В <code>apps/hz-poster/manifest.plist</code> замени ссылку на <code>.ipa</code>, bundle id, версию и название.</li>
-        <li>Загрузи сайт в GitHub Pages. IPA лучше положить в GitHub Releases.</li>
+        <li>Открой сайт в Safari на iPhone.</li>
+        <li>Выбери приложение и нажми кнопку установки.</li>
+        <li>Если iPhone попросит подтверждение — подтверди установку.</li>
+        <li>Если приложение установилось, но не запускается — проверь доверие к сертификату в настройках iPhone.</li>
       </ol>
     </section>
   </main>
 
   <footer>
-    <p>Сделано как простой статический сайт: HTML + CSS + manifest.plist.</p>
+    <p>Статический сайт: GitHub Pages + GitHub Releases + manifest.plist.</p>
   </footer>
 </body>
 </html>
