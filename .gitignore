@@ -4,3 +4,6 @@ node_modules/
 downloads/
 apps_metadata.json
 drive_files.json
+drive_files_all.json
+upload_remaining_releases.log
+upload_remaining_releases.py
