@@ -19,11 +19,11 @@
 
 1. Создай GitHub-репозиторий и включи GitHub Pages для ветки `main`.
 2. Загрузи `.ipa` в GitHub Releases.
-3. В `apps/hz-poster/manifest.plist` уже указаны данные FamilyBu:
-   - `https://github.com/soundtrackminus-hash/ios-ota-apps-site/releases/download/v1.0.0/FamilyBu.ipa`
-   - `selim.anna.company`
-   - `1.0.0`
-   - `FamilyBu`
+3. В `apps/hz-poster/manifest.plist` уже указаны данные приложения из IPA:
+   - `https://github.com/soundtrackminus-hash/ios-ota-apps-site/releases/download/v1.2.1/SlicingDices.ipa`
+   - `com.slicingdice.game`
+   - `1.2.1`
+   - `SlicingDices`
 4. В `index.html` замени ссылку установки:
 
 ```text
