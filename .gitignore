@@ -1,2 +1,6 @@
 .DS_Store
 node_modules/
+
+downloads/
+apps_metadata.json
+drive_files.json
