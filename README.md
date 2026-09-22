@@ -19,11 +19,11 @@
 
 1. Создай GitHub-репозиторий и включи GitHub Pages для ветки `main`.
 2. Загрузи `.ipa` в GitHub Releases.
-3. В `apps/hz-poster/manifest.plist` замени:
-   - `https://github.com/soundtrackminus-hash/ios-ota-apps-site/releases/download/v1.0.0/hz-poster.ipa`
-   - `com.example.hzposter`
+3. В `apps/hz-poster/manifest.plist` уже указаны данные FamilyBu:
+   - `https://github.com/soundtrackminus-hash/ios-ota-apps-site/releases/download/v1.0.0/FamilyBu.ipa`
+   - `selim.anna.company`
    - `1.0.0`
-   - `HZ Poster`
+   - `FamilyBu`
 4. В `index.html` замени ссылку установки:
 
 ```text
