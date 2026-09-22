@@ -20,14 +20,14 @@
 1. Создай GitHub-репозиторий и включи GitHub Pages для ветки `main`.
 2. Загрузи `.ipa` в GitHub Releases.
 3. В `apps/hz-poster/manifest.plist` замени:
-   - `https://github.com/USERNAME/REPOSITORY/releases/download/v1.0.0/hz-poster.ipa`
+   - `https://github.com/soundtrackminus-hash/ios-ota-apps-site/releases/download/v1.0.0/hz-poster.ipa`
    - `com.example.hzposter`
    - `1.0.0`
    - `HZ Poster`
 4. В `index.html` замени ссылку установки:
 
 ```text
-itms-services://?action=download-manifest&url=https://USERNAME.github.io/REPOSITORY/apps/hz-poster/manifest.plist
+itms-services://?action=download-manifest&url=https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/hz-poster/manifest.plist
 ```
 
 ## Важно
