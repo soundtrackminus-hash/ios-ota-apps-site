@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>iPhone Apps</title>
+  <meta name="description" content="Каталог iOS-приложений для установки через itms-services manifest.plist">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="hero__badge">iOS OTA Install</div>
+    <h1>Каталог iPhone-приложений</h1>
+    <p>
+      Страница для установки IPA через Apple-ссылку
+      <code>itms-services</code>. Сайт и манифесты можно хранить на GitHub Pages,
+      а IPA-файлы — в GitHub Releases.
+    </p>
+  </header>
+
+  <main>
+    <section class="notice">
+      <strong>Важно:</strong> установка сработает только если IPA правильно подписан
+      и iPhone доверяет сертификату/профилю. Сам сайт не обходит ограничения Apple.
+    </section>
+
+    <section class="apps" aria-label="Список приложений">
+      <article class="app-card">
+        <img class="app-card__icon" src="icons/hz-poster.svg" alt="Иконка HZ Poster">
+        <div class="app-card__body">
+          <div class="app-card__topline">
+            <h2>HZ Poster</h2>
+            <span class="version">v1.0.0</span>
+          </div>
+          <p>Демо-карточка приложения. Замени ссылку на IPA, bundle id и версию в manifest.plist.</p>
+          <dl class="meta">
+            <div><dt>Bundle ID</dt><dd>com.example.hzposter</dd></div>
+            <div><dt>Manifest</dt><dd><code>apps/hz-poster/manifest.plist</code></dd></div>
+          </dl>
+          <a class="install-button" href="itms-services://?action=download-manifest&url=https://USERNAME.github.io/REPOSITORY/apps/hz-poster/manifest.plist">
+            Установить на iPhone
+          </a>
+        </div>
+      </article>
+    </section>
+
+    <section class="howto">
+      <h2>Что заменить перед публикацией</h2>
+      <ol>
+        <li>В <code>index.html</code> замени <code>USERNAME</code> и <code>REPOSITORY</code> в ссылке установки.</li>
+        <li>В <code>apps/hz-poster/manifest.plist</code> замени ссылку на <code>.ipa</code>, bundle id, версию и название.</li>
+        <li>Загрузи сайт в GitHub Pages. IPA лучше положить в GitHub Releases.</li>
+      </ol>
+    </section>
+  </main>
+
+  <footer>
+    <p>Сделано как простой статический сайт: HTML + CSS + manifest.plist.</p>
+  </footer>
+</body>
+</html>
