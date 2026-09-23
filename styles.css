@@ -83,6 +83,46 @@ code {
   border-color: rgba(255, 205, 112, 0.22);
 }
 
+.toolbar {
+  display: grid;
+  gap: 10px;
+  margin: 22px 0;
+  padding: 18px 20px;
+  border: 1px solid var(--line);
+  border-radius: 22px;
+  background: rgba(255,255,255,0.055);
+}
+
+.toolbar label {
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.toolbar input {
+  width: 100%;
+  min-height: 50px;
+  border: 1px solid rgba(255,255,255,0.14);
+  border-radius: 16px;
+  padding: 0 16px;
+  color: var(--text);
+  background: rgba(15, 23, 42, 0.88);
+  font: inherit;
+  outline: none;
+}
+
+.toolbar input:focus {
+  border-color: rgba(105, 230, 163, 0.72);
+  box-shadow: 0 0 0 4px rgba(105, 230, 163, 0.12);
+}
+
+.counter {
+  color: var(--muted);
+  font-size: 14px;
+}
+
 .apps {
   display: grid;
   grid-template-columns: 1fr;
@@ -151,6 +191,13 @@ code {
   overflow-wrap: anywhere;
 }
 
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
 .install-button {
   display: inline-flex;
   align-items: center;
@@ -162,6 +209,18 @@ code {
   background: linear-gradient(135deg, var(--accent), var(--accent-2));
   font-weight: 900;
   text-decoration: none;
+}
+
+.manifest-link {
+  color: #dbeafe;
+  text-decoration: none;
+  font-weight: 700;
+  opacity: 0.88;
+}
+
+.manifest-link:hover {
+  opacity: 1;
+  text-decoration: underline;
 }
 
 .howto {

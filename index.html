@@ -9,117 +9,40 @@
 </head>
 <body>
   <header class="hero">
-    <div class="hero__badge">iOS OTA Install</div>
+    <div class="hero__badge">iOS OTA Install · 50 приложений</div>
     <h1>Каталог iPhone-приложений</h1>
-    <p>Открой эту страницу на iPhone и нажми «Установить на iPhone» у нужного приложения. Установка идёт через Apple-ссылку <code>itms-services</code> и отдельный <code>manifest.plist</code>.</p>
+    <p>Открой эту страницу именно в Safari на iPhone и нажми «Установить на iPhone» у нужного приложения. Установка идёт через Apple-ссылку <code>itms-services</code> и отдельный <code>manifest.plist</code>.</p>
   </header>
   <main>
-    <section class="notice"><strong>Важно:</strong> если приложение не устанавливается или не открывается, причина обычно в подписи IPA, сертификате или профиле доверия на iPhone.</section>
+    <section class="notice"><strong>Важно:</strong> если iPhone пишет, что приложение не удалось установить или открыть, обычно причина не в сайте, а в подписи IPA, сертификате, совместимости iOS или профиле доверия.</section>
+    <section class="toolbar" aria-label="Поиск приложений">
+      <label for="search">Поиск приложения</label>
+      <input id="search" type="search" placeholder="Например: VK, Авито, банк, bundle id…" autocomplete="off">
+      <div class="counter"><span id="shown-count">50</span> из 50</div>
+    </section>
     <section class="apps" aria-label="Список приложений">
-      <article class="app-card">
+      <article class="app-card" data-search="8pro com.kitchen.brief 8pro 8pro 3.1.1.ipa">
         <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">📱</div>
         <div class="app-card__body">
           <div class="app-card__topline">
-            <h2>Без наличных</h2>
-            <span class="version">v3.3.72</span>
+            <h2>8PRO</h2>
+            <span class="version">v3.1.1</span>
           </div>
           <p>Установка IPA на iPhone через сайт.</p>
           <dl class="meta">
-            <div><dt>Bundle ID</dt><dd>ru.stream.pay</dd></div>
-            <div><dt>Размер</dt><dd>64.4 МБ</dd></div>
-            <div><dt>Manifest</dt><dd><code>apps/bez-nalichnyh/manifest.plist</code></dd></div>
-            <div><dt>Файл</dt><dd><code>bez-nalichnyh.ipa</code></dd></div>
+            <div><dt>Bundle ID</dt><dd>com.kitchen.brief</dd></div>
+            <div><dt>Размер</dt><dd>436.1 МБ</dd></div>
+            <div><dt>Manifest</dt><dd><code>apps/8pro/manifest.plist</code></dd></div>
+            <div><dt>Файл</dt><dd><code>8pro.ipa</code></dd></div>
           </dl>
-          <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/bez-nalichnyh/manifest.plist">Установить на iPhone</a>
+          <div class="actions">
+            <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https%3A%2F%2Fsoundtrackminus-hash.github.io%2Fios-ota-apps-site%2Fapps%2F8pro%2Fmanifest.plist">Установить на iPhone</a>
+            <a class="manifest-link" href="https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/8pro/manifest.plist">manifest.plist</a>
+          </div>
         </div>
       </article>
-      <article class="app-card">
+      <article class="app-card" data-search="anero online.anero.app anero anero_ ваш онлайн помощник авито.ipa">
         <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">💳</div>
-        <div class="app-card__body">
-          <div class="app-card__topline">
-            <h2>Афина бюджет</h2>
-            <span class="version">v1.7.2</span>
-          </div>
-          <p>Установка IPA на iPhone через сайт.</p>
-          <dl class="meta">
-            <div><dt>Bundle ID</dt><dd>uz.svoybyudzhet</dd></div>
-            <div><dt>Размер</dt><dd>110.0 МБ</dd></div>
-            <div><dt>Manifest</dt><dd><code>apps/afina-byudzhet/manifest.plist</code></dd></div>
-            <div><dt>Файл</dt><dd><code>afina-byudzhet.ipa</code></dd></div>
-          </dl>
-          <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/afina-byudzhet/manifest.plist">Установить на iPhone</a>
-        </div>
-      </article>
-      <article class="app-card">
-        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">✨</div>
-        <div class="app-card__body">
-          <div class="app-card__topline">
-            <h2>Teboil</h2>
-            <span class="version">v1.6.4</span>
-          </div>
-          <p>Установка IPA на iPhone через сайт.</p>
-          <dl class="meta">
-            <div><dt>Bundle ID</dt><dd>com.teboil.azs</dd></div>
-            <div><dt>Размер</dt><dd>84.9 МБ</dd></div>
-            <div><dt>Manifest</dt><dd><code>apps/teboil/manifest.plist</code></dd></div>
-            <div><dt>Файл</dt><dd><code>teboil.ipa</code></dd></div>
-          </dl>
-          <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/teboil/manifest.plist">Установить на iPhone</a>
-        </div>
-      </article>
-      <article class="app-card">
-        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">🎮</div>
-        <div class="app-card__body">
-          <div class="app-card__topline">
-            <h2>SplitActivities</h2>
-            <span class="version">v28052025.3</span>
-          </div>
-          <p>Установка IPA на iPhone через сайт.</p>
-          <dl class="meta">
-            <div><dt>Bundle ID</dt><dd>com.splitactivities.app</dd></div>
-            <div><dt>Размер</dt><dd>401.9 МБ</dd></div>
-            <div><dt>Manifest</dt><dd><code>apps/splitactivities/manifest.plist</code></dd></div>
-            <div><dt>Файл</dt><dd><code>splitactivities.ipa</code></dd></div>
-          </dl>
-          <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/splitactivities/manifest.plist">Установить на iPhone</a>
-        </div>
-      </article>
-      <article class="app-card">
-        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">🛒</div>
-        <div class="app-card__body">
-          <div class="app-card__topline">
-            <h2>iManager</h2>
-            <span class="version">v1.11</span>
-          </div>
-          <p>Установка IPA на iPhone через сайт.</p>
-          <dl class="meta">
-            <div><dt>Bundle ID</dt><dd>am.invest.imanager</dd></div>
-            <div><dt>Размер</dt><dd>217.7 МБ</dd></div>
-            <div><dt>Manifest</dt><dd><code>apps/imanager/manifest.plist</code></dd></div>
-            <div><dt>Файл</dt><dd><code>imanager.ipa</code></dd></div>
-          </dl>
-          <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/imanager/manifest.plist">Установить на iPhone</a>
-        </div>
-      </article>
-      <article class="app-card">
-        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">💬</div>
-        <div class="app-card__body">
-          <div class="app-card__topline">
-            <h2>Au</h2>
-            <span class="version">v224.0</span>
-          </div>
-          <p>Установка IPA на iPhone через сайт.</p>
-          <dl class="meta">
-            <div><dt>Bundle ID</dt><dd>org.reactjs.native.prod.AuReactNativeApp</dd></div>
-            <div><dt>Размер</dt><dd>552.7 МБ</dd></div>
-            <div><dt>Manifest</dt><dd><code>apps/au/manifest.plist</code></dd></div>
-            <div><dt>Файл</dt><dd><code>au.ipa</code></dd></div>
-          </dl>
-          <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/au/manifest.plist">Установить на iPhone</a>
-        </div>
-      </article>
-      <article class="app-card">
-        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">🚗</div>
         <div class="app-card__body">
           <div class="app-card__topline">
             <h2>Anero</h2>
@@ -132,639 +55,13 @@
             <div><dt>Manifest</dt><dd><code>apps/anero/manifest.plist</code></dd></div>
             <div><dt>Файл</dt><dd><code>anero.ipa</code></dd></div>
           </dl>
-          <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/anero/manifest.plist">Установить на iPhone</a>
-        </div>
-      </article>
-      <article class="app-card">
-        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">🎁</div>
-        <div class="app-card__body">
-          <div class="app-card__topline">
-            <h2>Happ Plus</h2>
-            <span class="version">v5.3.0</span>
+          <div class="actions">
+            <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https%3A%2F%2Fsoundtrackminus-hash.github.io%2Fios-ota-apps-site%2Fapps%2Fanero%2Fmanifest.plist">Установить на iPhone</a>
+            <a class="manifest-link" href="https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/anero/manifest.plist">manifest.plist</a>
           </div>
-          <p>Установка IPA на iPhone через сайт.</p>
-          <dl class="meta">
-            <div><dt>Bundle ID</dt><dd>su.ffg.happ.ruplus2</dd></div>
-            <div><dt>Размер</dt><dd>291.0 МБ</dd></div>
-            <div><dt>Manifest</dt><dd><code>apps/happ-plus/manifest.plist</code></dd></div>
-            <div><dt>Файл</dt><dd><code>happ-plus.ipa</code></dd></div>
-          </dl>
-          <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/happ-plus/manifest.plist">Установить на iPhone</a>
         </div>
       </article>
-      <article class="app-card">
-        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">🔥</div>
-        <div class="app-card__body">
-          <div class="app-card__topline">
-            <h2>Яндекс Сим</h2>
-            <span class="version">v1.7.0</span>
-          </div>
-          <p>Установка IPA на iPhone через сайт.</p>
-          <dl class="meta">
-            <div><dt>Bundle ID</dt><dd>ru.yandex.simapp</dd></div>
-            <div><dt>Размер</dt><dd>42.5 МБ</dd></div>
-            <div><dt>Manifest</dt><dd><code>apps/yandeks-sim/manifest.plist</code></dd></div>
-            <div><dt>Файл</dt><dd><code>yandeks-sim.ipa</code></dd></div>
-          </dl>
-          <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/yandeks-sim/manifest.plist">Установить на iPhone</a>
-        </div>
-      </article>
-      <article class="app-card">
-        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">🎲</div>
-        <div class="app-card__body">
-          <div class="app-card__topline">
-            <h2>SpeakaBoo</h2>
-            <span class="version">v2.1</span>
-          </div>
-          <p>Установка IPA на iPhone через сайт.</p>
-          <dl class="meta">
-            <div><dt>Bundle ID</dt><dd>app.speakaboo.com</dd></div>
-            <div><dt>Размер</dt><dd>180.9 МБ</dd></div>
-            <div><dt>Manifest</dt><dd><code>apps/speakaboo/manifest.plist</code></dd></div>
-            <div><dt>Файл</dt><dd><code>speakaboo.ipa</code></dd></div>
-          </dl>
-          <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/speakaboo/manifest.plist">Установить на iPhone</a>
-        </div>
-      </article>
-      <article class="app-card">
-        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">🗺️</div>
-        <div class="app-card__body">
-          <div class="app-card__topline">
-            <h2>FuelInTime</h2>
-            <span class="version">v1.3</span>
-          </div>
-          <p>Установка IPA на iPhone через сайт.</p>
-          <dl class="meta">
-            <div><dt>Bundle ID</dt><dd>com.ivars.fueltime</dd></div>
-            <div><dt>Размер</dt><dd>208.7 МБ</dd></div>
-            <div><dt>Manifest</dt><dd><code>apps/fuelintime/manifest.plist</code></dd></div>
-            <div><dt>Файл</dt><dd><code>fuelintime.ipa</code></dd></div>
-          </dl>
-          <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/fuelintime/manifest.plist">Установить на iPhone</a>
-        </div>
-      </article>
-      <article class="app-card">
-        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">🌙</div>
-        <div class="app-card__body">
-          <div class="app-card__topline">
-            <h2>SCB Notes</h2>
-            <span class="version">v1.1</span>
-          </div>
-          <p>Установка IPA на iPhone через сайт.</p>
-          <dl class="meta">
-            <div><dt>Bundle ID</dt><dd>org.mydiary</dd></div>
-            <div><dt>Размер</dt><dd>110.5 МБ</dd></div>
-            <div><dt>Manifest</dt><dd><code>apps/scb-notes/manifest.plist</code></dd></div>
-            <div><dt>Файл</dt><dd><code>scb-notes.ipa</code></dd></div>
-          </dl>
-          <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/scb-notes/manifest.plist">Установить на iPhone</a>
-        </div>
-      </article>
-      <article class="app-card">
-        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">💼</div>
-        <div class="app-card__body">
-          <div class="app-card__topline">
-            <h2>Мобио</h2>
-            <span class="version">v1.0.2</span>
-          </div>
-          <p>Установка IPA на iPhone через сайт.</p>
-          <dl class="meta">
-            <div><dt>Bundle ID</dt><dd>ru.tele-tie.app</dd></div>
-            <div><dt>Размер</dt><dd>54.1 МБ</dd></div>
-            <div><dt>Manifest</dt><dd><code>apps/mobio/manifest.plist</code></dd></div>
-            <div><dt>Файл</dt><dd><code>mobio.ipa</code></dd></div>
-          </dl>
-          <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/mobio/manifest.plist">Установить на iPhone</a>
-        </div>
-      </article>
-      <article class="app-card">
-        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">📁</div>
-        <div class="app-card__body">
-          <div class="app-card__topline">
-            <h2>PianoWave</h2>
-            <span class="version">v1.2.0</span>
-          </div>
-          <p>Установка IPA на iPhone через сайт.</p>
-          <dl class="meta">
-            <div><dt>Bundle ID</dt><dd>com.pianowave.musicgame</dd></div>
-            <div><dt>Размер</dt><dd>68.3 МБ</dd></div>
-            <div><dt>Manifest</dt><dd><code>apps/pianowave/manifest.plist</code></dd></div>
-            <div><dt>Файл</dt><dd><code>pianowave.ipa</code></dd></div>
-          </dl>
-          <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/pianowave/manifest.plist">Установить на iPhone</a>
-        </div>
-      </article>
-      <article class="app-card">
-        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">📝</div>
-        <div class="app-card__body">
-          <div class="app-card__topline">
-            <h2>INCY</h2>
-            <span class="version">v2.6.2</span>
-          </div>
-          <p>Установка IPA на iPhone через сайт.</p>
-          <dl class="meta">
-            <div><dt>Bundle ID</dt><dd>llc.itdev.incy</dd></div>
-            <div><dt>Размер</dt><dd>127.9 МБ</dd></div>
-            <div><dt>Manifest</dt><dd><code>apps/incy/manifest.plist</code></dd></div>
-            <div><dt>Файл</dt><dd><code>incy.ipa</code></dd></div>
-          </dl>
-          <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/incy/manifest.plist">Установить на iPhone</a>
-        </div>
-      </article>
-      <article class="app-card">
-        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">🎵</div>
-        <div class="app-card__body">
-          <div class="app-card__topline">
-            <h2>Здоровье</h2>
-            <span class="version">v3.13.2</span>
-          </div>
-          <p>Установка IPA на iPhone через сайт.</p>
-          <dl class="meta">
-            <div><dt>Bundle ID</dt><dd>kz.origon.empapp</dd></div>
-            <div><dt>Размер</dt><dd>94.5 МБ</dd></div>
-            <div><dt>Manifest</dt><dd><code>apps/zdorove/manifest.plist</code></dd></div>
-            <div><dt>Файл</dt><dd><code>zdorove.ipa</code></dd></div>
-          </dl>
-          <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/zdorove/manifest.plist">Установить на iPhone</a>
-        </div>
-      </article>
-      <article class="app-card">
-        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">🎬</div>
-        <div class="app-card__body">
-          <div class="app-card__topline">
-            <h2>GetQuot</h2>
-            <span class="version">v2.0.0</span>
-          </div>
-          <p>Установка IPA на iPhone через сайт.</p>
-          <dl class="meta">
-            <div><dt>Bundle ID</dt><dd>pro.smartitservices.getquote</dd></div>
-            <div><dt>Размер</dt><dd>136.0 МБ</dd></div>
-            <div><dt>Manifest</dt><dd><code>apps/getquot/manifest.plist</code></dd></div>
-            <div><dt>Файл</dt><dd><code>getquot.ipa</code></dd></div>
-          </dl>
-          <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/getquot/manifest.plist">Установить на iPhone</a>
-        </div>
-      </article>
-      <article class="app-card">
-        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">🏦</div>
-        <div class="app-card__body">
-          <div class="app-card__topline">
-            <h2>Сияние</h2>
-            <span class="version">v4.3.0</span>
-          </div>
-          <p>Установка IPA на iPhone через сайт.</p>
-          <dl class="meta">
-            <div><dt>Bundle ID</dt><dd>am.solar.app</dd></div>
-            <div><dt>Размер</dt><dd>166.6 МБ</dd></div>
-            <div><dt>Manifest</dt><dd><code>apps/siyanie/manifest.plist</code></dd></div>
-            <div><dt>Файл</dt><dd><code>siyanie.ipa</code></dd></div>
-          </dl>
-          <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/siyanie/manifest.plist">Установить на iPhone</a>
-        </div>
-      </article>
-      <article class="app-card">
-        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">📮</div>
-        <div class="app-card__body">
-          <div class="app-card__topline">
-            <h2>Craftersy</h2>
-            <span class="version">v5.1</span>
-          </div>
-          <p>Установка IPA на iPhone через сайт.</p>
-          <dl class="meta">
-            <div><dt>Bundle ID</dt><dd>apps.homepreserves.prohome</dd></div>
-            <div><dt>Размер</dt><dd>473.8 МБ</dd></div>
-            <div><dt>Manifest</dt><dd><code>apps/craftersy/manifest.plist</code></dd></div>
-            <div><dt>Файл</dt><dd><code>craftersy.ipa</code></dd></div>
-          </dl>
-          <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/craftersy/manifest.plist">Установить на iPhone</a>
-        </div>
-      </article>
-      <article class="app-card">
-        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">🧘</div>
-        <div class="app-card__body">
-          <div class="app-card__topline">
-            <h2>ЮMoney</h2>
-            <span class="version">v11.12.0</span>
-          </div>
-          <p>Установка IPA на iPhone через сайт.</p>
-          <dl class="meta">
-            <div><dt>Bundle ID</dt><dd>ru.yoo.money</dd></div>
-            <div><dt>Размер</dt><dd>224.4 МБ</dd></div>
-            <div><dt>Manifest</dt><dd><code>apps/yumoney/manifest.plist</code></dd></div>
-            <div><dt>Файл</dt><dd><code>yumoney.ipa</code></dd></div>
-          </dl>
-          <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/yumoney/manifest.plist">Установить на iPhone</a>
-        </div>
-      </article>
-      <article class="app-card">
-        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">⛰️</div>
-        <div class="app-card__body">
-          <div class="app-card__topline">
-            <h2>Юла</h2>
-            <span class="version">v6.0</span>
-          </div>
-          <p>Установка IPA на iPhone через сайт.</p>
-          <dl class="meta">
-            <div><dt>Bundle ID</dt><dd>com.allgoritm.Youla</dd></div>
-            <div><dt>Размер</dt><dd>131.6 МБ</dd></div>
-            <div><dt>Manifest</dt><dd><code>apps/yula/manifest.plist</code></dd></div>
-            <div><dt>Файл</dt><dd><code>yula.ipa</code></dd></div>
-          </dl>
-          <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/yula/manifest.plist">Установить на iPhone</a>
-        </div>
-      </article>
-      <article class="app-card">
-        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">📱</div>
-        <div class="app-card__body">
-          <div class="app-card__topline">
-            <h2>VK Music</h2>
-            <span class="version">v8.30.1</span>
-          </div>
-          <p>Установка IPA на iPhone через сайт.</p>
-          <dl class="meta">
-            <div><dt>Bundle ID</dt><dd>com.music.vk</dd></div>
-            <div><dt>Размер</dt><dd>180.3 МБ</dd></div>
-            <div><dt>Manifest</dt><dd><code>apps/vk-music/manifest.plist</code></dd></div>
-            <div><dt>Файл</dt><dd><code>vk-music.ipa</code></dd></div>
-          </dl>
-          <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/vk-music/manifest.plist">Установить на iPhone</a>
-        </div>
-      </article>
-      <article class="app-card">
-        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">💳</div>
-        <div class="app-card__body">
-          <div class="app-card__topline">
-            <h2>VK Video</h2>
-            <span class="version">v8.183</span>
-          </div>
-          <p>Установка IPA на iPhone через сайт.</p>
-          <dl class="meta">
-            <div><dt>Bundle ID</dt><dd>com.vk.vkvideo.prod</dd></div>
-            <div><dt>Размер</dt><dd>236.1 МБ</dd></div>
-            <div><dt>Manifest</dt><dd><code>apps/vk-video/manifest.plist</code></dd></div>
-            <div><dt>Файл</dt><dd><code>vk-video.ipa</code></dd></div>
-          </dl>
-          <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/vk-video/manifest.plist">Установить на iPhone</a>
-        </div>
-      </article>
-      <article class="app-card">
-        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">✨</div>
-        <div class="app-card__body">
-          <div class="app-card__topline">
-            <h2>Infinity Blade</h2>
-            <span class="version">v1.4.3</span>
-          </div>
-          <p>Установка IPA на iPhone через сайт.</p>
-          <dl class="meta">
-            <div><dt>Bundle ID</dt><dd>com.chairentertainment.birthright</dd></div>
-            <div><dt>Размер</dt><dd>601.0 МБ</dd></div>
-            <div><dt>Manifest</dt><dd><code>apps/infinity-blade/manifest.plist</code></dd></div>
-            <div><dt>Файл</dt><dd><code>infinity-blade.ipa</code></dd></div>
-          </dl>
-          <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/infinity-blade/manifest.plist">Установить на iPhone</a>
-        </div>
-      </article>
-      <article class="app-card">
-        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">🎮</div>
-        <div class="app-card__body">
-          <div class="app-card__topline">
-            <h2>OK</h2>
-            <span class="version">v11.63.1</span>
-          </div>
-          <p>Установка IPA на iPhone через сайт.</p>
-          <dl class="meta">
-            <div><dt>Bundle ID</dt><dd>ru.odnoklassniki.iphone</dd></div>
-            <div><dt>Размер</dt><dd>316.1 МБ</dd></div>
-            <div><dt>Manifest</dt><dd><code>apps/ok/manifest.plist</code></dd></div>
-            <div><dt>Файл</dt><dd><code>ok.ipa</code></dd></div>
-          </dl>
-          <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/ok/manifest.plist">Установить на iPhone</a>
-        </div>
-      </article>
-      <article class="app-card">
-        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">🛒</div>
-        <div class="app-card__body">
-          <div class="app-card__topline">
-            <h2>Яндекс Банк</h2>
-            <span class="version">v0.234.4</span>
-          </div>
-          <p>Установка IPA на iPhone через сайт.</p>
-          <dl class="meta">
-            <div><dt>Bundle ID</dt><dd>com.yandex.fintech.bank-app</dd></div>
-            <div><dt>Размер</dt><dd>87.1 МБ</dd></div>
-            <div><dt>Manifest</dt><dd><code>apps/yandeks-bank/manifest.plist</code></dd></div>
-            <div><dt>Файл</dt><dd><code>yandeks-bank.ipa</code></dd></div>
-          </dl>
-          <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/yandeks-bank/manifest.plist">Установить на iPhone</a>
-        </div>
-      </article>
-      <article class="app-card">
-        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">💬</div>
-        <div class="app-card__body">
-          <div class="app-card__topline">
-            <h2>Сириус</h2>
-            <span class="version">v2.0.1</span>
-          </div>
-          <p>Установка IPA на iPhone через сайт.</p>
-          <dl class="meta">
-            <div><dt>Bundle ID</dt><dd>com.sm.FlowTime</dd></div>
-            <div><dt>Размер</dt><dd>379.4 МБ</dd></div>
-            <div><dt>Manifest</dt><dd><code>apps/sirius/manifest.plist</code></dd></div>
-            <div><dt>Файл</dt><dd><code>sirius.ipa</code></dd></div>
-          </dl>
-          <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/sirius/manifest.plist">Установить на iPhone</a>
-        </div>
-      </article>
-      <article class="app-card">
-        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">🚗</div>
-        <div class="app-card__body">
-          <div class="app-card__topline">
-            <h2>Почта Mail.ru</h2>
-            <span class="version">v15.92.0</span>
-          </div>
-          <p>Установка IPA на iPhone через сайт.</p>
-          <dl class="meta">
-            <div><dt>Bundle ID</dt><dd>ru.mail.mail</dd></div>
-            <div><dt>Размер</dt><dd>547.9 МБ</dd></div>
-            <div><dt>Manifest</dt><dd><code>apps/pochta-mail-ru/manifest.plist</code></dd></div>
-            <div><dt>Файл</dt><dd><code>pochta-mail-ru.ipa</code></dd></div>
-          </dl>
-          <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/pochta-mail-ru/manifest.plist">Установить на iPhone</a>
-        </div>
-      </article>
-      <article class="app-card">
-        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">🎁</div>
-        <div class="app-card__body">
-          <div class="app-card__topline">
-            <h2>SplitActivities</h2>
-            <span class="version">v28052025.3</span>
-          </div>
-          <p>Установка IPA на iPhone через сайт.</p>
-          <dl class="meta">
-            <div><dt>Bundle ID</dt><dd>com.splitactivities.app</dd></div>
-            <div><dt>Размер</dt><dd>402.0 МБ</dd></div>
-            <div><dt>Manifest</dt><dd><code>apps/splitactivities-plitactivities-app/manifest.plist</code></dd></div>
-            <div><dt>Файл</dt><dd><code>splitactivities-plitactivities-app.ipa</code></dd></div>
-          </dl>
-          <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/splitactivities-plitactivities-app/manifest.plist">Установить на iPhone</a>
-        </div>
-      </article>
-      <article class="app-card">
-        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">🔥</div>
-        <div class="app-card__body">
-          <div class="app-card__topline">
-            <h2>Online</h2>
-            <span class="version">v17.6.1</span>
-          </div>
-          <p>Установка IPA на iPhone через сайт.</p>
-          <dl class="meta">
-            <div><dt>Bundle ID</dt><dd>com.inv.gen</dd></div>
-            <div><dt>Размер</dt><dd>507.4 МБ</dd></div>
-            <div><dt>Manifest</dt><dd><code>apps/online/manifest.plist</code></dd></div>
-            <div><dt>Файл</dt><dd><code>online.ipa</code></dd></div>
-          </dl>
-          <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/online/manifest.plist">Установить на iPhone</a>
-        </div>
-      </article>
-      <article class="app-card">
-        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">🎲</div>
-        <div class="app-card__body">
-          <div class="app-card__topline">
-            <h2>Online</h2>
-            <span class="version">v17.6.1</span>
-          </div>
-          <p>Установка IPA на iPhone через сайт.</p>
-          <dl class="meta">
-            <div><dt>Bundle ID</dt><dd>com.inv.gen</dd></div>
-            <div><dt>Размер</dt><dd>507.4 МБ</dd></div>
-            <div><dt>Manifest</dt><dd><code>apps/online-com-inv-gen/manifest.plist</code></dd></div>
-            <div><dt>Файл</dt><dd><code>online-com-inv-gen.ipa</code></dd></div>
-          </dl>
-          <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/online-com-inv-gen/manifest.plist">Установить на iPhone</a>
-        </div>
-      </article>
-      <article class="app-card">
-        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">🗺️</div>
-        <div class="app-card__body">
-          <div class="app-card__topline">
-            <h2>Лента</h2>
-            <span class="version">v6.81.0</span>
-          </div>
-          <p>Установка IPA на iPhone через сайт.</p>
-          <dl class="meta">
-            <div><dt>Bundle ID</dt><dd>com.icemobile.lenta</dd></div>
-            <div><dt>Размер</dt><dd>326.3 МБ</dd></div>
-            <div><dt>Manifest</dt><dd><code>apps/lenta/manifest.plist</code></dd></div>
-            <div><dt>Файл</dt><dd><code>lenta.ipa</code></dd></div>
-          </dl>
-          <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/lenta/manifest.plist">Установить на iPhone</a>
-        </div>
-      </article>
-      <article class="app-card">
-        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">🌙</div>
-        <div class="app-card__body">
-          <div class="app-card__topline">
-            <h2>Легко</h2>
-            <span class="version">v6.89.0</span>
-          </div>
-          <p>Установка IPA на iPhone через сайт.</p>
-          <dl class="meta">
-            <div><dt>Bundle ID</dt><dd>com.timofeykozuylichev.legko</dd></div>
-            <div><dt>Размер</dt><dd>300.1 МБ</dd></div>
-            <div><dt>Manifest</dt><dd><code>apps/legko/manifest.plist</code></dd></div>
-            <div><dt>Файл</dt><dd><code>legko.ipa</code></dd></div>
-          </dl>
-          <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/legko/manifest.plist">Установить на iPhone</a>
-        </div>
-      </article>
-      <article class="app-card">
-        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">💼</div>
-        <div class="app-card__body">
-          <div class="app-card__topline">
-            <h2>Авито</h2>
-            <span class="version">v200.5</span>
-          </div>
-          <p>Установка IPA на iPhone через сайт.</p>
-          <dl class="meta">
-            <div><dt>Bundle ID</dt><dd>ru.avito.app</dd></div>
-            <div><dt>Размер</dt><dd>804.6 МБ</dd></div>
-            <div><dt>Manifest</dt><dd><code>apps/avito/manifest.plist</code></dd></div>
-            <div><dt>Файл</dt><dd><code>avito.ipa</code></dd></div>
-          </dl>
-          <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/avito/manifest.plist">Установить на iPhone</a>
-        </div>
-      </article>
-      <article class="app-card">
-        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">📁</div>
-        <div class="app-card__body">
-          <div class="app-card__topline">
-            <h2>VK</h2>
-            <span class="version">v8.183.1</span>
-          </div>
-          <p>Установка IPA на iPhone через сайт.</p>
-          <dl class="meta">
-            <div><dt>Bundle ID</dt><dd>com.vk.vkclient</dd></div>
-            <div><dt>Размер</dt><dd>417.0 МБ</dd></div>
-            <div><dt>Manifest</dt><dd><code>apps/vk/manifest.plist</code></dd></div>
-            <div><dt>Файл</dt><dd><code>vk.ipa</code></dd></div>
-          </dl>
-          <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/vk/manifest.plist">Установить на iPhone</a>
-        </div>
-      </article>
-      <article class="app-card">
-        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">📝</div>
-        <div class="app-card__body">
-          <div class="app-card__topline">
-            <h2>Автотека</h2>
-            <span class="version">v2.5.3</span>
-          </div>
-          <p>Установка IPA на iPhone через сайт.</p>
-          <dl class="meta">
-            <div><dt>Bundle ID</dt><dd>ru.abd.autoteka.application</dd></div>
-            <div><dt>Размер</dt><dd>182.1 МБ</dd></div>
-            <div><dt>Manifest</dt><dd><code>apps/avtoteka/manifest.plist</code></dd></div>
-            <div><dt>Файл</dt><dd><code>avtoteka.ipa</code></dd></div>
-          </dl>
-          <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/avtoteka/manifest.plist">Установить на iPhone</a>
-        </div>
-      </article>
-      <article class="app-card">
-        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">🎵</div>
-        <div class="app-card__body">
-          <div class="app-card__topline">
-            <h2>Бак+Бонус</h2>
-            <span class="version">v1.1.1</span>
-          </div>
-          <p>Установка IPA на iPhone через сайт.</p>
-          <dl class="meta">
-            <div><dt>Bundle ID</dt><dd>ru.bakbonus.appstarter</dd></div>
-            <div><dt>Размер</dt><dd>103.1 МБ</dd></div>
-            <div><dt>Manifest</dt><dd><code>apps/bak-bonus/manifest.plist</code></dd></div>
-            <div><dt>Файл</dt><dd><code>bak-bonus.ipa</code></dd></div>
-          </dl>
-          <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/bak-bonus/manifest.plist">Установить на iPhone</a>
-        </div>
-      </article>
-      <article class="app-card">
-        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">🎬</div>
-        <div class="app-card__body">
-          <div class="app-card__topline">
-            <h2>Toast</h2>
-            <span class="version">v2.0.1</span>
-          </div>
-          <p>Установка IPA на iPhone через сайт.</p>
-          <dl class="meta">
-            <div><dt>Bundle ID</dt><dd>com.toastmaster.app</dd></div>
-            <div><dt>Размер</dt><dd>431.2 МБ</dd></div>
-            <div><dt>Manifest</dt><dd><code>apps/toast/manifest.plist</code></dd></div>
-            <div><dt>Файл</dt><dd><code>toast.ipa</code></dd></div>
-          </dl>
-          <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/toast/manifest.plist">Установить на iPhone</a>
-        </div>
-      </article>
-      <article class="app-card">
-        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">🏦</div>
-        <div class="app-card__body">
-          <div class="app-card__topline">
-            <h2>SlicingDices</h2>
-            <span class="version">v1.2.1</span>
-          </div>
-          <p>Установка IPA на iPhone через сайт.</p>
-          <dl class="meta">
-            <div><dt>Bundle ID</dt><dd>com.slicingdice.game</dd></div>
-            <div><dt>Размер</dt><dd>55.5 МБ</dd></div>
-            <div><dt>Manifest</dt><dd><code>apps/slicingdices/manifest.plist</code></dd></div>
-            <div><dt>Файл</dt><dd><code>slicingdices.ipa</code></dd></div>
-          </dl>
-          <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/slicingdices/manifest.plist">Установить на iPhone</a>
-        </div>
-      </article>
-      <article class="app-card">
-        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">📮</div>
-        <div class="app-card__body">
-          <div class="app-card__topline">
-            <h2>SilentFund</h2>
-            <span class="version">v1.3.1</span>
-          </div>
-          <p>Установка IPA на iPhone через сайт.</p>
-          <dl class="meta">
-            <div><dt>Bundle ID</dt><dd>com.silentmap.app</dd></div>
-            <div><dt>Размер</dt><dd>207.5 МБ</dd></div>
-            <div><dt>Manifest</dt><dd><code>apps/silentfund/manifest.plist</code></dd></div>
-            <div><dt>Файл</dt><dd><code>silentfund.ipa</code></dd></div>
-          </dl>
-          <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/silentfund/manifest.plist">Установить на iPhone</a>
-        </div>
-      </article>
-      <article class="app-card">
-        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">🧘</div>
-        <div class="app-card__body">
-          <div class="app-card__topline">
-            <h2>Relaxia</h2>
-            <span class="version">v2.6</span>
-          </div>
-          <p>Установка IPA на iPhone через сайт.</p>
-          <dl class="meta">
-            <div><dt>Bundle ID</dt><dd>com.payIX.RelaxToSleepPaid</dd></div>
-            <div><dt>Размер</dt><dd>79.2 МБ</dd></div>
-            <div><dt>Manifest</dt><dd><code>apps/relaxia/manifest.plist</code></dd></div>
-            <div><dt>Файл</dt><dd><code>relaxia.ipa</code></dd></div>
-          </dl>
-          <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/relaxia/manifest.plist">Установить на iPhone</a>
-        </div>
-      </article>
-      <article class="app-card">
-        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">⛰️</div>
-        <div class="app-card__body">
-          <div class="app-card__topline">
-            <h2>MAX</h2>
-            <span class="version">v26.17.3</span>
-          </div>
-          <p>Установка IPA на iPhone через сайт.</p>
-          <dl class="meta">
-            <div><dt>Bundle ID</dt><dd>ru.oneme.app</dd></div>
-            <div><dt>Размер</dt><dd>86.7 МБ</dd></div>
-            <div><dt>Manifest</dt><dd><code>apps/max/manifest.plist</code></dd></div>
-            <div><dt>Файл</dt><dd><code>max.ipa</code></dd></div>
-          </dl>
-          <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/max/manifest.plist">Установить на iPhone</a>
-        </div>
-      </article>
-      <article class="app-card">
-        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">📱</div>
-        <div class="app-card__body">
-          <div class="app-card__topline">
-            <h2>FileHub</h2>
-            <span class="version">v10.3.5</span>
-          </div>
-          <p>Установка IPA на iPhone через сайт.</p>
-          <dl class="meta">
-            <div><dt>Bundle ID</dt><dd>com.imoreapps.portabledisk</dd></div>
-            <div><dt>Размер</dt><dd>60.5 МБ</dd></div>
-            <div><dt>Manifest</dt><dd><code>apps/filehub/manifest.plist</code></dd></div>
-            <div><dt>Файл</dt><dd><code>filehub.ipa</code></dd></div>
-          </dl>
-          <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/filehub/manifest.plist">Установить на iPhone</a>
-        </div>
-      </article>
-      <article class="app-card">
-        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">💳</div>
-        <div class="app-card__body">
-          <div class="app-card__topline">
-            <h2>Notion</h2>
-            <span class="version">v0.4.2220</span>
-          </div>
-          <p>Установка IPA на iPhone через сайт.</p>
-          <dl class="meta">
-            <div><dt>Bundle ID</dt><dd>notion.id</dd></div>
-            <div><dt>Размер</dt><dd>337.8 МБ</dd></div>
-            <div><dt>Manifest</dt><dd><code>apps/notion/manifest.plist</code></dd></div>
-            <div><dt>Файл</dt><dd><code>notion.ipa</code></dd></div>
-          </dl>
-          <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/notion/manifest.plist">Установить на iPhone</a>
-        </div>
-      </article>
-      <article class="app-card">
+      <article class="app-card" data-search="anero online.anero.app anero-online-anero-app anero 230.1.ipa">
         <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">✨</div>
         <div class="app-card__body">
           <div class="app-card__topline">
@@ -778,28 +75,114 @@
             <div><dt>Manifest</dt><dd><code>apps/anero-online-anero-app/manifest.plist</code></dd></div>
             <div><dt>Файл</dt><dd><code>anero-online-anero-app.ipa</code></dd></div>
           </dl>
-          <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/anero-online-anero-app/manifest.plist">Установить на iPhone</a>
+          <div class="actions">
+            <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https%3A%2F%2Fsoundtrackminus-hash.github.io%2Fios-ota-apps-site%2Fapps%2Fanero-online-anero-app%2Fmanifest.plist">Установить на iPhone</a>
+            <a class="manifest-link" href="https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/anero-online-anero-app/manifest.plist">manifest.plist</a>
+          </div>
         </div>
       </article>
-      <article class="app-card">
+      <article class="app-card" data-search="au org.reactjs.native.prod.aureactnativeapp au аукцион au.ru авито.ipa">
         <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">🎮</div>
         <div class="app-card__body">
           <div class="app-card__topline">
-            <h2>8PRO</h2>
-            <span class="version">v3.1.1</span>
+            <h2>Au</h2>
+            <span class="version">v224.0</span>
           </div>
           <p>Установка IPA на iPhone через сайт.</p>
           <dl class="meta">
-            <div><dt>Bundle ID</dt><dd>com.kitchen.brief</dd></div>
-            <div><dt>Размер</dt><dd>436.1 МБ</dd></div>
-            <div><dt>Manifest</dt><dd><code>apps/8pro/manifest.plist</code></dd></div>
-            <div><dt>Файл</dt><dd><code>8pro.ipa</code></dd></div>
+            <div><dt>Bundle ID</dt><dd>org.reactjs.native.prod.AuReactNativeApp</dd></div>
+            <div><dt>Размер</dt><dd>552.7 МБ</dd></div>
+            <div><dt>Manifest</dt><dd><code>apps/au/manifest.plist</code></dd></div>
+            <div><dt>Файл</dt><dd><code>au.ipa</code></dd></div>
           </dl>
-          <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/8pro/manifest.plist">Установить на iPhone</a>
+          <div class="actions">
+            <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https%3A%2F%2Fsoundtrackminus-hash.github.io%2Fios-ota-apps-site%2Fapps%2Fau%2Fmanifest.plist">Установить на iPhone</a>
+            <a class="manifest-link" href="https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/au/manifest.plist">manifest.plist</a>
+          </div>
         </div>
       </article>
-      <article class="app-card">
+      <article class="app-card" data-search="craftersy apps.homepreserves.prohome craftersy craftersy тбанк.ipa">
         <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">🛒</div>
+        <div class="app-card__body">
+          <div class="app-card__topline">
+            <h2>Craftersy</h2>
+            <span class="version">v5.1</span>
+          </div>
+          <p>Установка IPA на iPhone через сайт.</p>
+          <dl class="meta">
+            <div><dt>Bundle ID</dt><dd>apps.homepreserves.prohome</dd></div>
+            <div><dt>Размер</dt><dd>473.8 МБ</dd></div>
+            <div><dt>Manifest</dt><dd><code>apps/craftersy/manifest.plist</code></dd></div>
+            <div><dt>Файл</dt><dd><code>craftersy.ipa</code></dd></div>
+          </dl>
+          <div class="actions">
+            <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https%3A%2F%2Fsoundtrackminus-hash.github.io%2Fios-ota-apps-site%2Fapps%2Fcraftersy%2Fmanifest.plist">Установить на iPhone</a>
+            <a class="manifest-link" href="https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/craftersy/manifest.plist">manifest.plist</a>
+          </div>
+        </div>
+      </article>
+      <article class="app-card" data-search="filehub com.imoreapps.portabledisk filehub file hub 10.3.5.ipa">
+        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">💬</div>
+        <div class="app-card__body">
+          <div class="app-card__topline">
+            <h2>FileHub</h2>
+            <span class="version">v10.3.5</span>
+          </div>
+          <p>Установка IPA на iPhone через сайт.</p>
+          <dl class="meta">
+            <div><dt>Bundle ID</dt><dd>com.imoreapps.portabledisk</dd></div>
+            <div><dt>Размер</dt><dd>60.5 МБ</dd></div>
+            <div><dt>Manifest</dt><dd><code>apps/filehub/manifest.plist</code></dd></div>
+            <div><dt>Файл</dt><dd><code>filehub.ipa</code></dd></div>
+          </dl>
+          <div class="actions">
+            <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https%3A%2F%2Fsoundtrackminus-hash.github.io%2Fios-ota-apps-site%2Fapps%2Ffilehub%2Fmanifest.plist">Установить на iPhone</a>
+            <a class="manifest-link" href="https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/filehub/manifest.plist">manifest.plist</a>
+          </div>
+        </div>
+      </article>
+      <article class="app-card" data-search="fuelintime com.ivars.fueltime fuelintime fuellntime тбанк инвестиции.ipa">
+        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">🚗</div>
+        <div class="app-card__body">
+          <div class="app-card__topline">
+            <h2>FuelInTime</h2>
+            <span class="version">v1.3</span>
+          </div>
+          <p>Установка IPA на iPhone через сайт.</p>
+          <dl class="meta">
+            <div><dt>Bundle ID</dt><dd>com.ivars.fueltime</dd></div>
+            <div><dt>Размер</dt><dd>208.7 МБ</dd></div>
+            <div><dt>Manifest</dt><dd><code>apps/fuelintime/manifest.plist</code></dd></div>
+            <div><dt>Файл</dt><dd><code>fuelintime.ipa</code></dd></div>
+          </dl>
+          <div class="actions">
+            <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https%3A%2F%2Fsoundtrackminus-hash.github.io%2Fios-ota-apps-site%2Fapps%2Ffuelintime%2Fmanifest.plist">Установить на iPhone</a>
+            <a class="manifest-link" href="https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/fuelintime/manifest.plist">manifest.plist</a>
+          </div>
+        </div>
+      </article>
+      <article class="app-card" data-search="getquot pro.smartitservices.getquote getquot getquot втб инвестиции.ipa">
+        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">🎁</div>
+        <div class="app-card__body">
+          <div class="app-card__topline">
+            <h2>GetQuot</h2>
+            <span class="version">v2.0.0</span>
+          </div>
+          <p>Установка IPA на iPhone через сайт.</p>
+          <dl class="meta">
+            <div><dt>Bundle ID</dt><dd>pro.smartitservices.getquote</dd></div>
+            <div><dt>Размер</dt><dd>136.0 МБ</dd></div>
+            <div><dt>Manifest</dt><dd><code>apps/getquot/manifest.plist</code></dd></div>
+            <div><dt>Файл</dt><dd><code>getquot.ipa</code></dd></div>
+          </dl>
+          <div class="actions">
+            <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https%3A%2F%2Fsoundtrackminus-hash.github.io%2Fios-ota-apps-site%2Fapps%2Fgetquot%2Fmanifest.plist">Установить на iPhone</a>
+            <a class="manifest-link" href="https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/getquot/manifest.plist">manifest.plist</a>
+          </div>
+        </div>
+      </article>
+      <article class="app-card" data-search="gta iii com.rockstargames.gta3ios gta-iii gta iii 1.3.13.ipa">
+        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">🔥</div>
         <div class="app-card__body">
           <div class="app-card__topline">
             <h2>GTA III</h2>
@@ -812,11 +195,114 @@
             <div><dt>Manifest</dt><dd><code>apps/gta-iii/manifest.plist</code></dd></div>
             <div><dt>Файл</dt><dd><code>gta-iii.ipa</code></dd></div>
           </dl>
-          <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/gta-iii/manifest.plist">Установить на iPhone</a>
+          <div class="actions">
+            <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https%3A%2F%2Fsoundtrackminus-hash.github.io%2Fios-ota-apps-site%2Fapps%2Fgta-iii%2Fmanifest.plist">Установить на iPhone</a>
+            <a class="manifest-link" href="https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/gta-iii/manifest.plist">manifest.plist</a>
+          </div>
         </div>
       </article>
-      <article class="app-card">
-        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">💬</div>
+      <article class="app-card" data-search="happ plus su.ffg.happ.ruplus2 happ-plus happ - proxy utility plus.ipa">
+        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">🎲</div>
+        <div class="app-card__body">
+          <div class="app-card__topline">
+            <h2>Happ Plus</h2>
+            <span class="version">v5.3.0</span>
+          </div>
+          <p>Установка IPA на iPhone через сайт.</p>
+          <dl class="meta">
+            <div><dt>Bundle ID</dt><dd>su.ffg.happ.ruplus2</dd></div>
+            <div><dt>Размер</dt><dd>291.0 МБ</dd></div>
+            <div><dt>Manifest</dt><dd><code>apps/happ-plus/manifest.plist</code></dd></div>
+            <div><dt>Файл</dt><dd><code>happ-plus.ipa</code></dd></div>
+          </dl>
+          <div class="actions">
+            <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https%3A%2F%2Fsoundtrackminus-hash.github.io%2Fios-ota-apps-site%2Fapps%2Fhapp-plus%2Fmanifest.plist">Установить на iPhone</a>
+            <a class="manifest-link" href="https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/happ-plus/manifest.plist">manifest.plist</a>
+          </div>
+        </div>
+      </article>
+      <article class="app-card" data-search="imanager am.invest.imanager imanager imanager by ins invest ингосстрах.ipa">
+        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">🗺️</div>
+        <div class="app-card__body">
+          <div class="app-card__topline">
+            <h2>iManager</h2>
+            <span class="version">v1.11</span>
+          </div>
+          <p>Установка IPA на iPhone через сайт.</p>
+          <dl class="meta">
+            <div><dt>Bundle ID</dt><dd>am.invest.imanager</dd></div>
+            <div><dt>Размер</dt><dd>217.7 МБ</dd></div>
+            <div><dt>Manifest</dt><dd><code>apps/imanager/manifest.plist</code></dd></div>
+            <div><dt>Файл</dt><dd><code>imanager.ipa</code></dd></div>
+          </dl>
+          <div class="actions">
+            <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https%3A%2F%2Fsoundtrackminus-hash.github.io%2Fios-ota-apps-site%2Fapps%2Fimanager%2Fmanifest.plist">Установить на iPhone</a>
+            <a class="manifest-link" href="https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/imanager/manifest.plist">manifest.plist</a>
+          </div>
+        </div>
+      </article>
+      <article class="app-card" data-search="incy llc.itdev.incy incy incy.ipa">
+        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">🌙</div>
+        <div class="app-card__body">
+          <div class="app-card__topline">
+            <h2>INCY</h2>
+            <span class="version">v2.6.2</span>
+          </div>
+          <p>Установка IPA на iPhone через сайт.</p>
+          <dl class="meta">
+            <div><dt>Bundle ID</dt><dd>llc.itdev.incy</dd></div>
+            <div><dt>Размер</dt><dd>127.9 МБ</dd></div>
+            <div><dt>Manifest</dt><dd><code>apps/incy/manifest.plist</code></dd></div>
+            <div><dt>Файл</dt><dd><code>incy.ipa</code></dd></div>
+          </dl>
+          <div class="actions">
+            <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https%3A%2F%2Fsoundtrackminus-hash.github.io%2Fios-ota-apps-site%2Fapps%2Fincy%2Fmanifest.plist">Установить на iPhone</a>
+            <a class="manifest-link" href="https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/incy/manifest.plist">manifest.plist</a>
+          </div>
+        </div>
+      </article>
+      <article class="app-card" data-search="infinity blade com.chairentertainment.birthright infinity-blade infinity_blade_1.4.3_ios_6.0+_selimseidov@gmail.com.ipa">
+        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">💼</div>
+        <div class="app-card__body">
+          <div class="app-card__topline">
+            <h2>Infinity Blade</h2>
+            <span class="version">v1.4.3</span>
+          </div>
+          <p>Установка IPA на iPhone через сайт.</p>
+          <dl class="meta">
+            <div><dt>Bundle ID</dt><dd>com.chairentertainment.birthright</dd></div>
+            <div><dt>Размер</dt><dd>601.0 МБ</dd></div>
+            <div><dt>Manifest</dt><dd><code>apps/infinity-blade/manifest.plist</code></dd></div>
+            <div><dt>Файл</dt><dd><code>infinity-blade.ipa</code></dd></div>
+          </dl>
+          <div class="actions">
+            <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https%3A%2F%2Fsoundtrackminus-hash.github.io%2Fios-ota-apps-site%2Fapps%2Finfinity-blade%2Fmanifest.plist">Установить на iPhone</a>
+            <a class="manifest-link" href="https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/infinity-blade/manifest.plist">manifest.plist</a>
+          </div>
+        </div>
+      </article>
+      <article class="app-card" data-search="max ru.oneme.app max max 26.17.3.ipa">
+        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">📁</div>
+        <div class="app-card__body">
+          <div class="app-card__topline">
+            <h2>MAX</h2>
+            <span class="version">v26.17.3</span>
+          </div>
+          <p>Установка IPA на iPhone через сайт.</p>
+          <dl class="meta">
+            <div><dt>Bundle ID</dt><dd>ru.oneme.app</dd></div>
+            <div><dt>Размер</dt><dd>86.7 МБ</dd></div>
+            <div><dt>Manifest</dt><dd><code>apps/max/manifest.plist</code></dd></div>
+            <div><dt>Файл</dt><dd><code>max.ipa</code></dd></div>
+          </dl>
+          <div class="actions">
+            <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https%3A%2F%2Fsoundtrackminus-hash.github.io%2Fios-ota-apps-site%2Fapps%2Fmax%2Fmanifest.plist">Установить на iPhone</a>
+            <a class="manifest-link" href="https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/max/manifest.plist">manifest.plist</a>
+          </div>
+        </div>
+      </article>
+      <article class="app-card" data-search="most wanted com.ea.nfs13.bv most-wanted most wanted 1.1.3.ipa">
+        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">📝</div>
         <div class="app-card__body">
           <div class="app-card__topline">
             <h2>Most Wanted</h2>
@@ -829,28 +315,454 @@
             <div><dt>Manifest</dt><dd><code>apps/most-wanted/manifest.plist</code></dd></div>
             <div><dt>Файл</dt><dd><code>most-wanted.ipa</code></dd></div>
           </dl>
-          <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/most-wanted/manifest.plist">Установить на iPhone</a>
+          <div class="actions">
+            <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https%3A%2F%2Fsoundtrackminus-hash.github.io%2Fios-ota-apps-site%2Fapps%2Fmost-wanted%2Fmanifest.plist">Установить на iPhone</a>
+            <a class="manifest-link" href="https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/most-wanted/manifest.plist">manifest.plist</a>
+          </div>
         </div>
       </article>
-      <article class="app-card">
-        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">🚗</div>
+      <article class="app-card" data-search="notion notion.id notion notion 0.4.2220.ipa">
+        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">🎵</div>
         <div class="app-card__body">
           <div class="app-card__topline">
-            <h2>Дом йоги</h2>
-            <span class="version">v10.0.0</span>
+            <h2>Notion</h2>
+            <span class="version">v0.4.2220</span>
           </div>
           <p>Установка IPA на iPhone через сайт.</p>
           <dl class="meta">
-            <div><dt>Bundle ID</dt><dd>yoga.appstore</dd></div>
-            <div><dt>Размер</dt><dd>552.5 МБ</dd></div>
-            <div><dt>Manifest</dt><dd><code>apps/dom-yogi/manifest.plist</code></dd></div>
-            <div><dt>Файл</dt><dd><code>dom-yogi.ipa</code></dd></div>
+            <div><dt>Bundle ID</dt><dd>notion.id</dd></div>
+            <div><dt>Размер</dt><dd>337.8 МБ</dd></div>
+            <div><dt>Manifest</dt><dd><code>apps/notion/manifest.plist</code></dd></div>
+            <div><dt>Файл</dt><dd><code>notion.ipa</code></dd></div>
           </dl>
-          <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/dom-yogi/manifest.plist">Установить на iPhone</a>
+          <div class="actions">
+            <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https%3A%2F%2Fsoundtrackminus-hash.github.io%2Fios-ota-apps-site%2Fapps%2Fnotion%2Fmanifest.plist">Установить на iPhone</a>
+            <a class="manifest-link" href="https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/notion/manifest.plist">manifest.plist</a>
+          </div>
         </div>
       </article>
-      <article class="app-card">
+      <article class="app-card" data-search="ok ru.odnoklassniki.iphone ok ок 11.63.1.ipa">
+        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">🎬</div>
+        <div class="app-card__body">
+          <div class="app-card__topline">
+            <h2>OK</h2>
+            <span class="version">v11.63.1</span>
+          </div>
+          <p>Установка IPA на iPhone через сайт.</p>
+          <dl class="meta">
+            <div><dt>Bundle ID</dt><dd>ru.odnoklassniki.iphone</dd></div>
+            <div><dt>Размер</dt><dd>316.1 МБ</dd></div>
+            <div><dt>Manifest</dt><dd><code>apps/ok/manifest.plist</code></dd></div>
+            <div><dt>Файл</dt><dd><code>ok.ipa</code></dd></div>
+          </dl>
+          <div class="actions">
+            <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https%3A%2F%2Fsoundtrackminus-hash.github.io%2Fios-ota-apps-site%2Fapps%2Fok%2Fmanifest.plist">Установить на iPhone</a>
+            <a class="manifest-link" href="https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/ok/manifest.plist">manifest.plist</a>
+          </div>
+        </div>
+      </article>
+      <article class="app-card" data-search="online com.inv.gen online online 17.6.1.ipa">
+        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">🏦</div>
+        <div class="app-card__body">
+          <div class="app-card__topline">
+            <h2>Online</h2>
+            <span class="version">v17.6.1</span>
+          </div>
+          <p>Установка IPA на iPhone через сайт.</p>
+          <dl class="meta">
+            <div><dt>Bundle ID</dt><dd>com.inv.gen</dd></div>
+            <div><dt>Размер</dt><dd>507.4 МБ</dd></div>
+            <div><dt>Manifest</dt><dd><code>apps/online/manifest.plist</code></dd></div>
+            <div><dt>Файл</dt><dd><code>online.ipa</code></dd></div>
+          </dl>
+          <div class="actions">
+            <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https%3A%2F%2Fsoundtrackminus-hash.github.io%2Fios-ota-apps-site%2Fapps%2Fonline%2Fmanifest.plist">Установить на iPhone</a>
+            <a class="manifest-link" href="https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/online/manifest.plist">manifest.plist</a>
+          </div>
+        </div>
+      </article>
+      <article class="app-card" data-search="online com.inv.gen online-com-inv-gen online 17.6.1 сбербанк.ipa">
+        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">📮</div>
+        <div class="app-card__body">
+          <div class="app-card__topline">
+            <h2>Online</h2>
+            <span class="version">v17.6.1</span>
+          </div>
+          <p>Установка IPA на iPhone через сайт.</p>
+          <dl class="meta">
+            <div><dt>Bundle ID</dt><dd>com.inv.gen</dd></div>
+            <div><dt>Размер</dt><dd>507.4 МБ</dd></div>
+            <div><dt>Manifest</dt><dd><code>apps/online-com-inv-gen/manifest.plist</code></dd></div>
+            <div><dt>Файл</dt><dd><code>online-com-inv-gen.ipa</code></dd></div>
+          </dl>
+          <div class="actions">
+            <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https%3A%2F%2Fsoundtrackminus-hash.github.io%2Fios-ota-apps-site%2Fapps%2Fonline-com-inv-gen%2Fmanifest.plist">Установить на iPhone</a>
+            <a class="manifest-link" href="https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/online-com-inv-gen/manifest.plist">manifest.plist</a>
+          </div>
+        </div>
+      </article>
+      <article class="app-card" data-search="pianowave com.pianowave.musicgame pianowave pianowave премьер кинотеатр.ipa">
+        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">🧘</div>
+        <div class="app-card__body">
+          <div class="app-card__topline">
+            <h2>PianoWave</h2>
+            <span class="version">v1.2.0</span>
+          </div>
+          <p>Установка IPA на iPhone через сайт.</p>
+          <dl class="meta">
+            <div><dt>Bundle ID</dt><dd>com.pianowave.musicgame</dd></div>
+            <div><dt>Размер</dt><dd>68.3 МБ</dd></div>
+            <div><dt>Manifest</dt><dd><code>apps/pianowave/manifest.plist</code></dd></div>
+            <div><dt>Файл</dt><dd><code>pianowave.ipa</code></dd></div>
+          </dl>
+          <div class="actions">
+            <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https%3A%2F%2Fsoundtrackminus-hash.github.io%2Fios-ota-apps-site%2Fapps%2Fpianowave%2Fmanifest.plist">Установить на iPhone</a>
+            <a class="manifest-link" href="https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/pianowave/manifest.plist">manifest.plist</a>
+          </div>
+        </div>
+      </article>
+      <article class="app-card" data-search="relaxia com.payix.relaxtosleeppaid relaxia relaxia 2.6.ipa">
+        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">⛰️</div>
+        <div class="app-card__body">
+          <div class="app-card__topline">
+            <h2>Relaxia</h2>
+            <span class="version">v2.6</span>
+          </div>
+          <p>Установка IPA на iPhone через сайт.</p>
+          <dl class="meta">
+            <div><dt>Bundle ID</dt><dd>com.payIX.RelaxToSleepPaid</dd></div>
+            <div><dt>Размер</dt><dd>79.2 МБ</dd></div>
+            <div><dt>Manifest</dt><dd><code>apps/relaxia/manifest.plist</code></dd></div>
+            <div><dt>Файл</dt><dd><code>relaxia.ipa</code></dd></div>
+          </dl>
+          <div class="actions">
+            <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https%3A%2F%2Fsoundtrackminus-hash.github.io%2Fios-ota-apps-site%2Fapps%2Frelaxia%2Fmanifest.plist">Установить на iPhone</a>
+            <a class="manifest-link" href="https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/relaxia/manifest.plist">manifest.plist</a>
+          </div>
+        </div>
+      </article>
+      <article class="app-card" data-search="scb notes org.mydiary scb-notes scb notes совкомбанк.ipa">
+        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">📱</div>
+        <div class="app-card__body">
+          <div class="app-card__topline">
+            <h2>SCB Notes</h2>
+            <span class="version">v1.1</span>
+          </div>
+          <p>Установка IPA на iPhone через сайт.</p>
+          <dl class="meta">
+            <div><dt>Bundle ID</dt><dd>org.mydiary</dd></div>
+            <div><dt>Размер</dt><dd>110.5 МБ</dd></div>
+            <div><dt>Manifest</dt><dd><code>apps/scb-notes/manifest.plist</code></dd></div>
+            <div><dt>Файл</dt><dd><code>scb-notes.ipa</code></dd></div>
+          </dl>
+          <div class="actions">
+            <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https%3A%2F%2Fsoundtrackminus-hash.github.io%2Fios-ota-apps-site%2Fapps%2Fscb-notes%2Fmanifest.plist">Установить на iPhone</a>
+            <a class="manifest-link" href="https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/scb-notes/manifest.plist">manifest.plist</a>
+          </div>
+        </div>
+      </article>
+      <article class="app-card" data-search="silentfund com.silentmap.app silentfund silentfund 1.3.1.ipa">
+        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">💳</div>
+        <div class="app-card__body">
+          <div class="app-card__topline">
+            <h2>SilentFund</h2>
+            <span class="version">v1.3.1</span>
+          </div>
+          <p>Установка IPA на iPhone через сайт.</p>
+          <dl class="meta">
+            <div><dt>Bundle ID</dt><dd>com.silentmap.app</dd></div>
+            <div><dt>Размер</dt><dd>207.5 МБ</dd></div>
+            <div><dt>Manifest</dt><dd><code>apps/silentfund/manifest.plist</code></dd></div>
+            <div><dt>Файл</dt><dd><code>silentfund.ipa</code></dd></div>
+          </dl>
+          <div class="actions">
+            <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https%3A%2F%2Fsoundtrackminus-hash.github.io%2Fios-ota-apps-site%2Fapps%2Fsilentfund%2Fmanifest.plist">Установить на iPhone</a>
+            <a class="manifest-link" href="https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/silentfund/manifest.plist">manifest.plist</a>
+          </div>
+        </div>
+      </article>
+      <article class="app-card" data-search="slicingdices com.slicingdice.game slicingdices slicingdices 1.2.1.ipa">
+        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">✨</div>
+        <div class="app-card__body">
+          <div class="app-card__topline">
+            <h2>SlicingDices</h2>
+            <span class="version">v1.2.1</span>
+          </div>
+          <p>Установка IPA на iPhone через сайт.</p>
+          <dl class="meta">
+            <div><dt>Bundle ID</dt><dd>com.slicingdice.game</dd></div>
+            <div><dt>Размер</dt><dd>55.5 МБ</dd></div>
+            <div><dt>Manifest</dt><dd><code>apps/slicingdices/manifest.plist</code></dd></div>
+            <div><dt>Файл</dt><dd><code>slicingdices.ipa</code></dd></div>
+          </dl>
+          <div class="actions">
+            <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https%3A%2F%2Fsoundtrackminus-hash.github.io%2Fios-ota-apps-site%2Fapps%2Fslicingdices%2Fmanifest.plist">Установить на iPhone</a>
+            <a class="manifest-link" href="https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/slicingdices/manifest.plist">manifest.plist</a>
+          </div>
+        </div>
+      </article>
+      <article class="app-card" data-search="speakaboo app.speakaboo.com speakaboo speakaboo сберкидс.ipa">
+        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">🎮</div>
+        <div class="app-card__body">
+          <div class="app-card__topline">
+            <h2>SpeakaBoo</h2>
+            <span class="version">v2.1</span>
+          </div>
+          <p>Установка IPA на iPhone через сайт.</p>
+          <dl class="meta">
+            <div><dt>Bundle ID</dt><dd>app.speakaboo.com</dd></div>
+            <div><dt>Размер</dt><dd>180.9 МБ</dd></div>
+            <div><dt>Manifest</dt><dd><code>apps/speakaboo/manifest.plist</code></dd></div>
+            <div><dt>Файл</dt><dd><code>speakaboo.ipa</code></dd></div>
+          </dl>
+          <div class="actions">
+            <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https%3A%2F%2Fsoundtrackminus-hash.github.io%2Fios-ota-apps-site%2Fapps%2Fspeakaboo%2Fmanifest.plist">Установить на iPhone</a>
+            <a class="manifest-link" href="https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/speakaboo/manifest.plist">manifest.plist</a>
+          </div>
+        </div>
+      </article>
+      <article class="app-card" data-search="splitactivities com.splitactivities.app splitactivities делим вместе альфа банк.ipa">
+        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">🛒</div>
+        <div class="app-card__body">
+          <div class="app-card__topline">
+            <h2>SplitActivities</h2>
+            <span class="version">v28052025.3</span>
+          </div>
+          <p>Установка IPA на iPhone через сайт.</p>
+          <dl class="meta">
+            <div><dt>Bundle ID</dt><dd>com.splitactivities.app</dd></div>
+            <div><dt>Размер</dt><dd>401.9 МБ</dd></div>
+            <div><dt>Manifest</dt><dd><code>apps/splitactivities/manifest.plist</code></dd></div>
+            <div><dt>Файл</dt><dd><code>splitactivities.ipa</code></dd></div>
+          </dl>
+          <div class="actions">
+            <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https%3A%2F%2Fsoundtrackminus-hash.github.io%2Fios-ota-apps-site%2Fapps%2Fsplitactivities%2Fmanifest.plist">Установить на iPhone</a>
+            <a class="manifest-link" href="https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/splitactivities/manifest.plist">manifest.plist</a>
+          </div>
+        </div>
+      </article>
+      <article class="app-card" data-search="splitactivities com.splitactivities.app splitactivities-plitactivities-app splitactivities 28052025.3.ipa">
+        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">💬</div>
+        <div class="app-card__body">
+          <div class="app-card__topline">
+            <h2>SplitActivities</h2>
+            <span class="version">v28052025.3</span>
+          </div>
+          <p>Установка IPA на iPhone через сайт.</p>
+          <dl class="meta">
+            <div><dt>Bundle ID</dt><dd>com.splitactivities.app</dd></div>
+            <div><dt>Размер</dt><dd>402.0 МБ</dd></div>
+            <div><dt>Manifest</dt><dd><code>apps/splitactivities-plitactivities-app/manifest.plist</code></dd></div>
+            <div><dt>Файл</dt><dd><code>splitactivities-plitactivities-app.ipa</code></dd></div>
+          </dl>
+          <div class="actions">
+            <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https%3A%2F%2Fsoundtrackminus-hash.github.io%2Fios-ota-apps-site%2Fapps%2Fsplitactivities-plitactivities-app%2Fmanifest.plist">Установить на iPhone</a>
+            <a class="manifest-link" href="https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/splitactivities-plitactivities-app/manifest.plist">manifest.plist</a>
+          </div>
+        </div>
+      </article>
+      <article class="app-card" data-search="teboil com.teboil.azs teboil teboil.ipa">
+        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">🚗</div>
+        <div class="app-card__body">
+          <div class="app-card__topline">
+            <h2>Teboil</h2>
+            <span class="version">v1.6.4</span>
+          </div>
+          <p>Установка IPA на iPhone через сайт.</p>
+          <dl class="meta">
+            <div><dt>Bundle ID</dt><dd>com.teboil.azs</dd></div>
+            <div><dt>Размер</dt><dd>84.9 МБ</dd></div>
+            <div><dt>Manifest</dt><dd><code>apps/teboil/manifest.plist</code></dd></div>
+            <div><dt>Файл</dt><dd><code>teboil.ipa</code></dd></div>
+          </dl>
+          <div class="actions">
+            <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https%3A%2F%2Fsoundtrackminus-hash.github.io%2Fios-ota-apps-site%2Fapps%2Fteboil%2Fmanifest.plist">Установить на iPhone</a>
+            <a class="manifest-link" href="https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/teboil/manifest.plist">manifest.plist</a>
+          </div>
+        </div>
+      </article>
+      <article class="app-card" data-search="toast com.toastmaster.app toast toast 2.0.1.ipa">
         <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">🎁</div>
+        <div class="app-card__body">
+          <div class="app-card__topline">
+            <h2>Toast</h2>
+            <span class="version">v2.0.1</span>
+          </div>
+          <p>Установка IPA на iPhone через сайт.</p>
+          <dl class="meta">
+            <div><dt>Bundle ID</dt><dd>com.toastmaster.app</dd></div>
+            <div><dt>Размер</dt><dd>431.2 МБ</dd></div>
+            <div><dt>Manifest</dt><dd><code>apps/toast/manifest.plist</code></dd></div>
+            <div><dt>Файл</dt><dd><code>toast.ipa</code></dd></div>
+          </dl>
+          <div class="actions">
+            <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https%3A%2F%2Fsoundtrackminus-hash.github.io%2Fios-ota-apps-site%2Fapps%2Ftoast%2Fmanifest.plist">Установить на iPhone</a>
+            <a class="manifest-link" href="https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/toast/manifest.plist">manifest.plist</a>
+          </div>
+        </div>
+      </article>
+      <article class="app-card" data-search="vk com.vk.vkclient vk vk 8.183.1.ipa">
+        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">🔥</div>
+        <div class="app-card__body">
+          <div class="app-card__topline">
+            <h2>VK</h2>
+            <span class="version">v8.183.1</span>
+          </div>
+          <p>Установка IPA на iPhone через сайт.</p>
+          <dl class="meta">
+            <div><dt>Bundle ID</dt><dd>com.vk.vkclient</dd></div>
+            <div><dt>Размер</dt><dd>417.0 МБ</dd></div>
+            <div><dt>Manifest</dt><dd><code>apps/vk/manifest.plist</code></dd></div>
+            <div><dt>Файл</dt><dd><code>vk.ipa</code></dd></div>
+          </dl>
+          <div class="actions">
+            <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https%3A%2F%2Fsoundtrackminus-hash.github.io%2Fios-ota-apps-site%2Fapps%2Fvk%2Fmanifest.plist">Установить на iPhone</a>
+            <a class="manifest-link" href="https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/vk/manifest.plist">manifest.plist</a>
+          </div>
+        </div>
+      </article>
+      <article class="app-card" data-search="vk music com.music.vk vk-music вк музыка_8.30.1.ipa">
+        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">🎲</div>
+        <div class="app-card__body">
+          <div class="app-card__topline">
+            <h2>VK Music</h2>
+            <span class="version">v8.30.1</span>
+          </div>
+          <p>Установка IPA на iPhone через сайт.</p>
+          <dl class="meta">
+            <div><dt>Bundle ID</dt><dd>com.music.vk</dd></div>
+            <div><dt>Размер</dt><dd>180.3 МБ</dd></div>
+            <div><dt>Manifest</dt><dd><code>apps/vk-music/manifest.plist</code></dd></div>
+            <div><dt>Файл</dt><dd><code>vk-music.ipa</code></dd></div>
+          </dl>
+          <div class="actions">
+            <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https%3A%2F%2Fsoundtrackminus-hash.github.io%2Fios-ota-apps-site%2Fapps%2Fvk-music%2Fmanifest.plist">Установить на iPhone</a>
+            <a class="manifest-link" href="https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/vk-music/manifest.plist">manifest.plist</a>
+          </div>
+        </div>
+      </article>
+      <article class="app-card" data-search="vk video com.vk.vkvideo.prod vk-video вк видео_8.183.ipa">
+        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">🗺️</div>
+        <div class="app-card__body">
+          <div class="app-card__topline">
+            <h2>VK Video</h2>
+            <span class="version">v8.183</span>
+          </div>
+          <p>Установка IPA на iPhone через сайт.</p>
+          <dl class="meta">
+            <div><dt>Bundle ID</dt><dd>com.vk.vkvideo.prod</dd></div>
+            <div><dt>Размер</dt><dd>236.1 МБ</dd></div>
+            <div><dt>Manifest</dt><dd><code>apps/vk-video/manifest.plist</code></dd></div>
+            <div><dt>Файл</dt><dd><code>vk-video.ipa</code></dd></div>
+          </dl>
+          <div class="actions">
+            <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https%3A%2F%2Fsoundtrackminus-hash.github.io%2Fios-ota-apps-site%2Fapps%2Fvk-video%2Fmanifest.plist">Установить на iPhone</a>
+            <a class="manifest-link" href="https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/vk-video/manifest.plist">manifest.plist</a>
+          </div>
+        </div>
+      </article>
+      <article class="app-card" data-search="авито ru.avito.app avito авито 200.5.ipa">
+        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">🌙</div>
+        <div class="app-card__body">
+          <div class="app-card__topline">
+            <h2>Авито</h2>
+            <span class="version">v200.5</span>
+          </div>
+          <p>Установка IPA на iPhone через сайт.</p>
+          <dl class="meta">
+            <div><dt>Bundle ID</dt><dd>ru.avito.app</dd></div>
+            <div><dt>Размер</dt><dd>804.6 МБ</dd></div>
+            <div><dt>Manifest</dt><dd><code>apps/avito/manifest.plist</code></dd></div>
+            <div><dt>Файл</dt><dd><code>avito.ipa</code></dd></div>
+          </dl>
+          <div class="actions">
+            <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https%3A%2F%2Fsoundtrackminus-hash.github.io%2Fios-ota-apps-site%2Fapps%2Favito%2Fmanifest.plist">Установить на iPhone</a>
+            <a class="manifest-link" href="https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/avito/manifest.plist">manifest.plist</a>
+          </div>
+        </div>
+      </article>
+      <article class="app-card" data-search="автотека ru.abd.autoteka.application avtoteka автотека 2.5.3.ipa">
+        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">💼</div>
+        <div class="app-card__body">
+          <div class="app-card__topline">
+            <h2>Автотека</h2>
+            <span class="version">v2.5.3</span>
+          </div>
+          <p>Установка IPA на iPhone через сайт.</p>
+          <dl class="meta">
+            <div><dt>Bundle ID</dt><dd>ru.abd.autoteka.application</dd></div>
+            <div><dt>Размер</dt><dd>182.1 МБ</dd></div>
+            <div><dt>Manifest</dt><dd><code>apps/avtoteka/manifest.plist</code></dd></div>
+            <div><dt>Файл</dt><dd><code>avtoteka.ipa</code></dd></div>
+          </dl>
+          <div class="actions">
+            <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https%3A%2F%2Fsoundtrackminus-hash.github.io%2Fios-ota-apps-site%2Fapps%2Favtoteka%2Fmanifest.plist">Установить на iPhone</a>
+            <a class="manifest-link" href="https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/avtoteka/manifest.plist">manifest.plist</a>
+          </div>
+        </div>
+      </article>
+      <article class="app-card" data-search="афина бюджет uz.svoybyudzhet afina-byudzhet афина бюджет псб банк.ipa">
+        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">📁</div>
+        <div class="app-card__body">
+          <div class="app-card__topline">
+            <h2>Афина бюджет</h2>
+            <span class="version">v1.7.2</span>
+          </div>
+          <p>Установка IPA на iPhone через сайт.</p>
+          <dl class="meta">
+            <div><dt>Bundle ID</dt><dd>uz.svoybyudzhet</dd></div>
+            <div><dt>Размер</dt><dd>110.0 МБ</dd></div>
+            <div><dt>Manifest</dt><dd><code>apps/afina-byudzhet/manifest.plist</code></dd></div>
+            <div><dt>Файл</dt><dd><code>afina-byudzhet.ipa</code></dd></div>
+          </dl>
+          <div class="actions">
+            <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https%3A%2F%2Fsoundtrackminus-hash.github.io%2Fios-ota-apps-site%2Fapps%2Fafina-byudzhet%2Fmanifest.plist">Установить на iPhone</a>
+            <a class="manifest-link" href="https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/afina-byudzhet/manifest.plist">manifest.plist</a>
+          </div>
+        </div>
+      </article>
+      <article class="app-card" data-search="бак+бонус ru.bakbonus.appstarter bak-bonus бак+бонус 1.1.1.ipa">
+        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">📝</div>
+        <div class="app-card__body">
+          <div class="app-card__topline">
+            <h2>Бак+Бонус</h2>
+            <span class="version">v1.1.1</span>
+          </div>
+          <p>Установка IPA на iPhone через сайт.</p>
+          <dl class="meta">
+            <div><dt>Bundle ID</dt><dd>ru.bakbonus.appstarter</dd></div>
+            <div><dt>Размер</dt><dd>103.1 МБ</dd></div>
+            <div><dt>Manifest</dt><dd><code>apps/bak-bonus/manifest.plist</code></dd></div>
+            <div><dt>Файл</dt><dd><code>bak-bonus.ipa</code></dd></div>
+          </dl>
+          <div class="actions">
+            <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https%3A%2F%2Fsoundtrackminus-hash.github.io%2Fios-ota-apps-site%2Fapps%2Fbak-bonus%2Fmanifest.plist">Установить на iPhone</a>
+            <a class="manifest-link" href="https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/bak-bonus/manifest.plist">manifest.plist</a>
+          </div>
+        </div>
+      </article>
+      <article class="app-card" data-search="без наличных ru.stream.pay bez-nalichnyh без наличных mtc pay.ipa">
+        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">🎵</div>
+        <div class="app-card__body">
+          <div class="app-card__topline">
+            <h2>Без наличных</h2>
+            <span class="version">v3.3.72</span>
+          </div>
+          <p>Установка IPA на iPhone через сайт.</p>
+          <dl class="meta">
+            <div><dt>Bundle ID</dt><dd>ru.stream.pay</dd></div>
+            <div><dt>Размер</dt><dd>64.4 МБ</dd></div>
+            <div><dt>Manifest</dt><dd><code>apps/bez-nalichnyh/manifest.plist</code></dd></div>
+            <div><dt>Файл</dt><dd><code>bez-nalichnyh.ipa</code></dd></div>
+          </dl>
+          <div class="actions">
+            <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https%3A%2F%2Fsoundtrackminus-hash.github.io%2Fios-ota-apps-site%2Fapps%2Fbez-nalichnyh%2Fmanifest.plist">Установить на iPhone</a>
+            <a class="manifest-link" href="https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/bez-nalichnyh/manifest.plist">manifest.plist</a>
+          </div>
+        </div>
+      </article>
+      <article class="app-card" data-search="до вершины ru.to.the.top.story.prod do-vershiny до вершины 5.6.0 газпромбанк.ipa">
+        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">🎬</div>
         <div class="app-card__body">
           <div class="app-card__topline">
             <h2>До вершины</h2>
@@ -863,10 +775,271 @@
             <div><dt>Manifest</dt><dd><code>apps/do-vershiny/manifest.plist</code></dd></div>
             <div><dt>Файл</dt><dd><code>do-vershiny.ipa</code></dd></div>
           </dl>
-          <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/do-vershiny/manifest.plist">Установить на iPhone</a>
+          <div class="actions">
+            <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https%3A%2F%2Fsoundtrackminus-hash.github.io%2Fios-ota-apps-site%2Fapps%2Fdo-vershiny%2Fmanifest.plist">Установить на iPhone</a>
+            <a class="manifest-link" href="https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/do-vershiny/manifest.plist">manifest.plist</a>
+          </div>
+        </div>
+      </article>
+      <article class="app-card" data-search="дом йоги yoga.appstore dom-yogi дом йоги 10.0.0 mtc.ipa">
+        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">🏦</div>
+        <div class="app-card__body">
+          <div class="app-card__topline">
+            <h2>Дом йоги</h2>
+            <span class="version">v10.0.0</span>
+          </div>
+          <p>Установка IPA на iPhone через сайт.</p>
+          <dl class="meta">
+            <div><dt>Bundle ID</dt><dd>yoga.appstore</dd></div>
+            <div><dt>Размер</dt><dd>552.5 МБ</dd></div>
+            <div><dt>Manifest</dt><dd><code>apps/dom-yogi/manifest.plist</code></dd></div>
+            <div><dt>Файл</dt><dd><code>dom-yogi.ipa</code></dd></div>
+          </dl>
+          <div class="actions">
+            <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https%3A%2F%2Fsoundtrackminus-hash.github.io%2Fios-ota-apps-site%2Fapps%2Fdom-yogi%2Fmanifest.plist">Установить на iPhone</a>
+            <a class="manifest-link" href="https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/dom-yogi/manifest.plist">manifest.plist</a>
+          </div>
+        </div>
+      </article>
+      <article class="app-card" data-search="здоровье kz.origon.empapp zdorove здоровье и страхование согаз.ipa">
+        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">📮</div>
+        <div class="app-card__body">
+          <div class="app-card__topline">
+            <h2>Здоровье</h2>
+            <span class="version">v3.13.2</span>
+          </div>
+          <p>Установка IPA на iPhone через сайт.</p>
+          <dl class="meta">
+            <div><dt>Bundle ID</dt><dd>kz.origon.empapp</dd></div>
+            <div><dt>Размер</dt><dd>94.5 МБ</dd></div>
+            <div><dt>Manifest</dt><dd><code>apps/zdorove/manifest.plist</code></dd></div>
+            <div><dt>Файл</dt><dd><code>zdorove.ipa</code></dd></div>
+          </dl>
+          <div class="actions">
+            <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https%3A%2F%2Fsoundtrackminus-hash.github.io%2Fios-ota-apps-site%2Fapps%2Fzdorove%2Fmanifest.plist">Установить на iPhone</a>
+            <a class="manifest-link" href="https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/zdorove/manifest.plist">manifest.plist</a>
+          </div>
+        </div>
+      </article>
+      <article class="app-card" data-search="легко com.timofeykozuylichev.legko legko легко 6.89.0.ipa">
+        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">🧘</div>
+        <div class="app-card__body">
+          <div class="app-card__topline">
+            <h2>Легко</h2>
+            <span class="version">v6.89.0</span>
+          </div>
+          <p>Установка IPA на iPhone через сайт.</p>
+          <dl class="meta">
+            <div><dt>Bundle ID</dt><dd>com.timofeykozuylichev.legko</dd></div>
+            <div><dt>Размер</dt><dd>300.1 МБ</dd></div>
+            <div><dt>Manifest</dt><dd><code>apps/legko/manifest.plist</code></dd></div>
+            <div><dt>Файл</dt><dd><code>legko.ipa</code></dd></div>
+          </dl>
+          <div class="actions">
+            <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https%3A%2F%2Fsoundtrackminus-hash.github.io%2Fios-ota-apps-site%2Fapps%2Flegko%2Fmanifest.plist">Установить на iPhone</a>
+            <a class="manifest-link" href="https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/legko/manifest.plist">manifest.plist</a>
+          </div>
+        </div>
+      </article>
+      <article class="app-card" data-search="лента com.icemobile.lenta lenta лента 6.81.0.ipa">
+        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">⛰️</div>
+        <div class="app-card__body">
+          <div class="app-card__topline">
+            <h2>Лента</h2>
+            <span class="version">v6.81.0</span>
+          </div>
+          <p>Установка IPA на iPhone через сайт.</p>
+          <dl class="meta">
+            <div><dt>Bundle ID</dt><dd>com.icemobile.lenta</dd></div>
+            <div><dt>Размер</dt><dd>326.3 МБ</dd></div>
+            <div><dt>Manifest</dt><dd><code>apps/lenta/manifest.plist</code></dd></div>
+            <div><dt>Файл</dt><dd><code>lenta.ipa</code></dd></div>
+          </dl>
+          <div class="actions">
+            <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https%3A%2F%2Fsoundtrackminus-hash.github.io%2Fios-ota-apps-site%2Fapps%2Flenta%2Fmanifest.plist">Установить на iPhone</a>
+            <a class="manifest-link" href="https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/lenta/manifest.plist">manifest.plist</a>
+          </div>
+        </div>
+      </article>
+      <article class="app-card" data-search="мобио ru.tele-tie.app mobio мобио сбермобайл.ipa">
+        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">📱</div>
+        <div class="app-card__body">
+          <div class="app-card__topline">
+            <h2>Мобио</h2>
+            <span class="version">v1.0.2</span>
+          </div>
+          <p>Установка IPA на iPhone через сайт.</p>
+          <dl class="meta">
+            <div><dt>Bundle ID</dt><dd>ru.tele-tie.app</dd></div>
+            <div><dt>Размер</dt><dd>54.1 МБ</dd></div>
+            <div><dt>Manifest</dt><dd><code>apps/mobio/manifest.plist</code></dd></div>
+            <div><dt>Файл</dt><dd><code>mobio.ipa</code></dd></div>
+          </dl>
+          <div class="actions">
+            <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https%3A%2F%2Fsoundtrackminus-hash.github.io%2Fios-ota-apps-site%2Fapps%2Fmobio%2Fmanifest.plist">Установить на iPhone</a>
+            <a class="manifest-link" href="https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/mobio/manifest.plist">manifest.plist</a>
+          </div>
+        </div>
+      </article>
+      <article class="app-card" data-search="почта mail.ru ru.mail.mail pochta-mail-ru mail app 15.92.0.ipa">
+        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">💳</div>
+        <div class="app-card__body">
+          <div class="app-card__topline">
+            <h2>Почта Mail.ru</h2>
+            <span class="version">v15.92.0</span>
+          </div>
+          <p>Установка IPA на iPhone через сайт.</p>
+          <dl class="meta">
+            <div><dt>Bundle ID</dt><dd>ru.mail.mail</dd></div>
+            <div><dt>Размер</dt><dd>547.9 МБ</dd></div>
+            <div><dt>Manifest</dt><dd><code>apps/pochta-mail-ru/manifest.plist</code></dd></div>
+            <div><dt>Файл</dt><dd><code>pochta-mail-ru.ipa</code></dd></div>
+          </dl>
+          <div class="actions">
+            <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https%3A%2F%2Fsoundtrackminus-hash.github.io%2Fios-ota-apps-site%2Fapps%2Fpochta-mail-ru%2Fmanifest.plist">Установить на iPhone</a>
+            <a class="manifest-link" href="https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/pochta-mail-ru/manifest.plist">manifest.plist</a>
+          </div>
+        </div>
+      </article>
+      <article class="app-card" data-search="сириус com.sm.flowtime sirius сириус 2.0.1.ipa">
+        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">✨</div>
+        <div class="app-card__body">
+          <div class="app-card__topline">
+            <h2>Сириус</h2>
+            <span class="version">v2.0.1</span>
+          </div>
+          <p>Установка IPA на iPhone через сайт.</p>
+          <dl class="meta">
+            <div><dt>Bundle ID</dt><dd>com.sm.FlowTime</dd></div>
+            <div><dt>Размер</dt><dd>379.4 МБ</dd></div>
+            <div><dt>Manifest</dt><dd><code>apps/sirius/manifest.plist</code></dd></div>
+            <div><dt>Файл</dt><dd><code>sirius.ipa</code></dd></div>
+          </dl>
+          <div class="actions">
+            <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https%3A%2F%2Fsoundtrackminus-hash.github.io%2Fios-ota-apps-site%2Fapps%2Fsirius%2Fmanifest.plist">Установить на iPhone</a>
+            <a class="manifest-link" href="https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/sirius/manifest.plist">manifest.plist</a>
+          </div>
+        </div>
+      </article>
+      <article class="app-card" data-search="сияние am.solar.app siyanie solar_ sun compass сбер инвестиции.ipa">
+        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">🎮</div>
+        <div class="app-card__body">
+          <div class="app-card__topline">
+            <h2>Сияние</h2>
+            <span class="version">v4.3.0</span>
+          </div>
+          <p>Установка IPA на iPhone через сайт.</p>
+          <dl class="meta">
+            <div><dt>Bundle ID</dt><dd>am.solar.app</dd></div>
+            <div><dt>Размер</dt><dd>166.6 МБ</dd></div>
+            <div><dt>Manifest</dt><dd><code>apps/siyanie/manifest.plist</code></dd></div>
+            <div><dt>Файл</dt><dd><code>siyanie.ipa</code></dd></div>
+          </dl>
+          <div class="actions">
+            <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https%3A%2F%2Fsoundtrackminus-hash.github.io%2Fios-ota-apps-site%2Fapps%2Fsiyanie%2Fmanifest.plist">Установить на iPhone</a>
+            <a class="manifest-link" href="https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/siyanie/manifest.plist">manifest.plist</a>
+          </div>
+        </div>
+      </article>
+      <article class="app-card" data-search="юmoney ru.yoo.money yumoney юmoney_11.12.0_ios_13.0+_selimseidov@gmail.com.ipa">
+        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">🛒</div>
+        <div class="app-card__body">
+          <div class="app-card__topline">
+            <h2>ЮMoney</h2>
+            <span class="version">v11.12.0</span>
+          </div>
+          <p>Установка IPA на iPhone через сайт.</p>
+          <dl class="meta">
+            <div><dt>Bundle ID</dt><dd>ru.yoo.money</dd></div>
+            <div><dt>Размер</dt><dd>224.4 МБ</dd></div>
+            <div><dt>Manifest</dt><dd><code>apps/yumoney/manifest.plist</code></dd></div>
+            <div><dt>Файл</dt><dd><code>yumoney.ipa</code></dd></div>
+          </dl>
+          <div class="actions">
+            <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https%3A%2F%2Fsoundtrackminus-hash.github.io%2Fios-ota-apps-site%2Fapps%2Fyumoney%2Fmanifest.plist">Установить на iPhone</a>
+            <a class="manifest-link" href="https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/yumoney/manifest.plist">manifest.plist</a>
+          </div>
+        </div>
+      </article>
+      <article class="app-card" data-search="юла com.allgoritm.youla yula юла_6.0.ipa">
+        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">💬</div>
+        <div class="app-card__body">
+          <div class="app-card__topline">
+            <h2>Юла</h2>
+            <span class="version">v6.0</span>
+          </div>
+          <p>Установка IPA на iPhone через сайт.</p>
+          <dl class="meta">
+            <div><dt>Bundle ID</dt><dd>com.allgoritm.Youla</dd></div>
+            <div><dt>Размер</dt><dd>131.6 МБ</dd></div>
+            <div><dt>Manifest</dt><dd><code>apps/yula/manifest.plist</code></dd></div>
+            <div><dt>Файл</dt><dd><code>yula.ipa</code></dd></div>
+          </dl>
+          <div class="actions">
+            <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https%3A%2F%2Fsoundtrackminus-hash.github.io%2Fios-ota-apps-site%2Fapps%2Fyula%2Fmanifest.plist">Установить на iPhone</a>
+            <a class="manifest-link" href="https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/yula/manifest.plist">manifest.plist</a>
+          </div>
+        </div>
+      </article>
+      <article class="app-card" data-search="яндекс банк com.yandex.fintech.bank-app yandeks-bank yandex pay 0.234.4.ipa">
+        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">🚗</div>
+        <div class="app-card__body">
+          <div class="app-card__topline">
+            <h2>Яндекс Банк</h2>
+            <span class="version">v0.234.4</span>
+          </div>
+          <p>Установка IPA на iPhone через сайт.</p>
+          <dl class="meta">
+            <div><dt>Bundle ID</dt><dd>com.yandex.fintech.bank-app</dd></div>
+            <div><dt>Размер</dt><dd>87.1 МБ</dd></div>
+            <div><dt>Manifest</dt><dd><code>apps/yandeks-bank/manifest.plist</code></dd></div>
+            <div><dt>Файл</dt><dd><code>yandeks-bank.ipa</code></dd></div>
+          </dl>
+          <div class="actions">
+            <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https%3A%2F%2Fsoundtrackminus-hash.github.io%2Fios-ota-apps-site%2Fapps%2Fyandeks-bank%2Fmanifest.plist">Установить на iPhone</a>
+            <a class="manifest-link" href="https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/yandeks-bank/manifest.plist">manifest.plist</a>
+          </div>
+        </div>
+      </article>
+      <article class="app-card" data-search="яндекс сим ru.yandex.simapp yandeks-sim яндекс сим.ipa">
+        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">🎁</div>
+        <div class="app-card__body">
+          <div class="app-card__topline">
+            <h2>Яндекс Сим</h2>
+            <span class="version">v1.7.0</span>
+          </div>
+          <p>Установка IPA на iPhone через сайт.</p>
+          <dl class="meta">
+            <div><dt>Bundle ID</dt><dd>ru.yandex.simapp</dd></div>
+            <div><dt>Размер</dt><dd>42.5 МБ</dd></div>
+            <div><dt>Manifest</dt><dd><code>apps/yandeks-sim/manifest.plist</code></dd></div>
+            <div><dt>Файл</dt><dd><code>yandeks-sim.ipa</code></dd></div>
+          </dl>
+          <div class="actions">
+            <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https%3A%2F%2Fsoundtrackminus-hash.github.io%2Fios-ota-apps-site%2Fapps%2Fyandeks-sim%2Fmanifest.plist">Установить на iPhone</a>
+            <a class="manifest-link" href="https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/yandeks-sim/manifest.plist">manifest.plist</a>
+          </div>
         </div>
       </article>
     </section>
   </main>
+  <footer>
+    <p>Если кнопка из Telegram не срабатывает — открой сайт в Safari. Manifest-ссылки оставлены для проверки.</p>
+  </footer>
+  <script>
+    const input = document.getElementById('search');
+    const cards = [...document.querySelectorAll('.app-card')];
+    const shown = document.getElementById('shown-count');
+    input.addEventListener('input', () => {
+      const q = input.value.trim().toLocaleLowerCase('ru-RU');
+      let count = 0;
+      for (const card of cards) {
+        const ok = !q || card.dataset.search.includes(q);
+        card.hidden = !ok;
+        if (ok) count++;
+      }
+      shown.textContent = count;
+    });
+  </script>
 </body>
 </html>
