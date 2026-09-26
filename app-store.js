@@ -9,7 +9,7 @@ function renderApps(apps) {
       <div class="app-card__body">
         <div class="app-card__topline">
           <h2>${app.name}</h2>
-          <span class="version">${app.version || '1.0.0'}</span>
+          <span class="version">v${app.version}</span>
         </div>
         <p class="app-card__size">Размер: ${app.sizeFormatted}</p>
         <div class="actions">
