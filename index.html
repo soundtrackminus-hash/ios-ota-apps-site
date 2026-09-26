@@ -18,7 +18,7 @@
     <section class="toolbar" aria-label="Поиск приложений">
       <label for="search">Поиск приложения</label>
       <input id="search" type="search" placeholder="Например: VK, Авито, банк, bundle id…" autocomplete="off">
-      <div class="counter"><span id="shown-count">50</span> из 50</div>
+      <div class="counter"><span id="shown-count">51</span> из 51</div>
     </section>
     <section class="apps" aria-label="Список приложений">
       <article class="app-card" data-search="8pro com.kitchen.brief 8pro 8pro 3.1.1.ipa">
@@ -1139,6 +1139,28 @@
           <div class="actions">
             <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https%3A%2F%2Fsoundtrackminus-hash.github.io%2Fios-ota-apps-site%2Fapps%2Fak-bars%2Fmanifest.plist">Установить на iPhone</a>
             <a class="manifest-link" href="https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/ak-bars/manifest.plist">manifest.plist</a>
+            <button class="copy-btn" onclick="navigator.clipboard.writeText(window.location.href); this.textContent='Скопировано!'; setTimeout(() => this.textContent='Копировать ссылку', 1200);" title="Копировать ссылку">📋 Копировать ссылку</button>
+            <a class="qr-btn" href="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=" target="_blank" title="QR-код">📱 QR-код</a>
+          </div>
+        </div>
+      </article>
+      <article class="app-card" data-search="gta sa gta-san-andreas rockstar gameplay">
+        <div class="app-card__icon app-card__icon--emoji" aria-hidden="true">🎮</div>
+        <div class="app-card__body">
+          <div class="app-card__topline">
+            <h2>GTA: San Andreas</h2>
+            <span class="version">v2.2.21</span>
+          </div>
+          <p>Установка IPA на iPhone через сайт.</p>
+          <dl class="meta">
+            <div><dt>Bundle ID</dt><dd>com.rockstargames.gta3sa</dd></div>
+            <div><dt>Размер</dt><dd>~1.8 ГБ</dd></div>
+            <div><dt>Manifest</dt><dd><code>apps/gta-sa/manifest.plist</code></div>
+            <div><dt>Файл</dt><dd><code>GTA_SA_2.2.21.ipa</code></div>
+          </dl>
+          <div class="actions">
+            <a class="install-button" href="itms-services://?action=download-manifest&amp;url=https%3A%2F%2Fsoundtrackminus-hash.github.io%2Fios-ota-apps-site%2Fapps%2Fgta-sa%2Fmanifest.plist">Установить на iPhone</a>
+            <a class="manifest-link" href="https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/gta-sa/manifest.plist">manifest.plist</a>
             <button class="copy-btn" onclick="navigator.clipboard.writeText(window.location.href); this.textContent='Скопировано!'; setTimeout(() => this.textContent='Копировать ссылку', 1200);" title="Копировать ссылку">📋 Копировать ссылку</button>
             <a class="qr-btn" href="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=" target="_blank" title="QR-код">📱 QR-код</a>
           </div>
