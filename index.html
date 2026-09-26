@@ -3,39 +3,45 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>iPhone Apps — Каталог iOS приложений</title>
-  <meta name="description" content="Каталог iOS-приложений для установки через itms-services manifest.plist">
+  <title>iOS Apps</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="hero">
-    <div class="hero__badge">iOS OTA Install · <span id="total-count">0</span> приложений</div>
-    <h1>Каталог iPhone-приложений</h1>
-    <p>Открой эту страницу в Safari на iPhone и нажми «Установить на iPhone» у нужного приложения.</p>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="/" class="logo-link">
+        <svg class="apple-logo" viewBox="0 0 170 170" xmlns="http://www.w3.org/2000/svg">
+          <path d="M150.37 130.25c-2.45 5.66-5.35 10.87-8.71 15.66-4.9 7.03-10.26 13.65-16.08 19.86-6.85 7.17-13.94 12.97-21.27 17.4-9.15 5.45-18.87 8.17-29.15 8.17-7.22 0-14.92-1.36-23.11-4.08-8.19-2.72-15.77-6.63-22.74-11.74-7.53-5.45-14.35-12.1-20.47-19.95-6.12-7.85-11.14-16.26-15.06-25.24-4.08-9.52-6.12-18.7-6.12-27.53 0-10.06 2.17-19.25 6.52-27.58 4.35-8.33 10.2-15.23 17.54-20.71 6.52-5.1 13.6-9.18 21.27-12.24s15.98-4.62 24.82-4.62c5.1 0 11.22 1.36 18.36 4.08 7.14 2.72 13.09 6.63 17.85 11.74-5.95 3.57-10.88 8.5-14.79 14.79-3.91 6.29-5.87 12.92-5.87 19.89 0 8.33 2.21 15.64 6.63 21.93 4.42 6.29 10.2 11.05 17.34 14.28 1.87 0.85 3.74 1.27 5.61 1.27 4.59 0 8.84-1.7 12.76-5.1 3.91-3.4 6.97-8.08 9.17-14.04 2.21-5.95 3.31-12.32 3.31-19.11 0-7.82-1.61-15.13-4.83-21.93-3.22-6.8-7.57-12.49-13.06-17.08 10.03-7.82 17.17-17.17 21.42-28.05 4.25-10.88 6.37-22.61 6.37-35.19 0-4.08-0.34-7.82-1.02-11.22h-0.17c-6.29 0-12.76 1.36-19.38 4.08-6.63 2.72-12.49 6.63-17.58 11.74-5.1 5.1-9.27 11.39-12.53 18.87-3.26 7.48-4.9 15.13-4.9 22.95 0 8.5 1.87 16.49 5.61 23.97 3.74 7.48 8.84 13.77 15.3 18.87 6.46 5.1 13.43 8.5 20.91 10.2 0.85 0.17 1.53 0.34 2.04 0.51-0.85 2.55-2.12 5.27-3.82 8.17z" fill="currentColor"/>
+          <path d="M115.21 37.3c3.22-4.08 4.83-9.01 4.83-14.79 0-2.04-0.26-4.08-0.77-6.12-5.1 0.85-9.86 3.26-14.28 7.22-3.91 3.57-6.8 8.08-8.67 13.52-1.87 5.44-2.81 10.71-2.81 15.81 0 2.21 0.17 4.42 0.51 6.63 5.1-0.85 9.86-3.26 14.28-7.22 3.91-3.57 6.8-8.08 8.67-13.52 1.87-5.44 2.81-10.71 2.81-15.81 0-2.21-0.17-4.42-0.51-6.63z" fill="currentColor"/>
+        </svg>
+        <span class="site-title">iOS Apps</span>
+      </a>
+    </div>
   </header>
-  <main>
-    <section class="notice">
-      <strong>Важно:</strong> установка через <code>itms-services</code> требует Safari и доверия сертификату.
+  
+  <main class="main-content">
+    <section class="hero-section">
+      <h1>Каталог приложений</h1>
+      <p>Установка iOS-приложений на iPhone через Safari</p>
     </section>
     
-    <section class="toolbar" aria-label="Фильтры и поиск">
-      <div class="toolbar__search">
-        <label for="search">🔍 Поиск</label>
-        <input id="search" type="search" placeholder="Название, bundle id…" autocomplete="off">
+    <!-- Панель фильтров -->
+    <section class="toolbar">
+      <div class="search-box">
+        <input type="search" id="search" placeholder="Поиск приложения..." autocomplete="off">
       </div>
-      <div class="toolbar__filters">
-        <label for="sort">↕ Сортировка:</label>
+      <div class="sort-box">
         <select id="sort">
-          <option value="name-asc">По названию (А-Я)</option>
-          <option value="name-desc">По названию (Я-А)</option>
-          <option value="size-asc">По размеру (↑)</option>
-          <option value="size-desc">По размеру (↓)</option>
+          <option value="name-asc">По названию</option>
+          <option value="size-desc">По размеру ↓</option>
+          <option value="size-asc">По размеру ↑</option>
         </select>
       </div>
-      <div class="counter"><span id="shown-count">0</span> из <span id="total-count-display">0</span></div>
+      <span class="counter"><span id="shown-count">0</span> из <span id="total-count">0</span></span>
     </section>
     
-    <section class="apps" aria-label="Список приложений" id="apps-container"></section>
+    <!-- Список приложений -->
+    <div class="apps-grid" id="apps-container"></div>
   </main>
   
   <script src="app-data.js"></script>
