@@ -1,15 +1,17 @@
+// Полный каталог iOS приложений
 const APPS = [
+  // Новые приложения из Google Drive
   {
     name: "Ак Барс Онлайн",
     version: "2.2.21",
     slug: "ак-барс-онлайн",
     bundleId: "ru.abb.akbarsonline",
-    size: 89478485, // bytes
+    size: 89478485,
     sizeFormatted: "85.3 МБ",
     manifestUrl: "https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/ак-барс-онлайн/manifest.plist",
     downloadUrl: "https://github.com/soundtrackminus-hash/ios-ota-apps-site/releases/download/ak-bars-v2.2.21/ak_bars_real.ipa",
     iconUrl: "icons/ак-барс-онлайн.png",
-    searchTags: "ак барс банк online акbars"
+    searchTags: "ак барс банк акbars акбарс онлайн"
   },
   {
     name: "Афина Бюджет ПСБ Банк",
@@ -94,5 +96,30 @@ const APPS = [
     downloadUrl: "https://github.com/soundtrackminus-hash/ios-ota-apps-site/releases/download/atoy-1.0.0/Atoy.ipa",
     iconUrl: "icons/atoy.png",
     searchTags: "atoy toy"
+  },
+  // Существующие приложения (GTA, Real Racing 2)
+  {
+    name: "GTA: San Andreas",
+    version: "2.2.21",
+    slug: "gta-sa",
+    bundleId: "com.rockstargames.gta3sa",
+    size: 1933511605,
+    sizeFormatted: "1.84 ГБ",
+    manifestUrl: "https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/gta-sa/manifest.plist",
+    downloadUrl: "https://github.com/soundtrackminus-hash/ios-ota-apps-site/releases/download/gta-sa-2.2.21/GTA_SA_2.2.21.ipa",
+    iconUrl: "icons/gta-sa.png",
+    searchTags: "gta san andreas rockstar gameplay"
+  },
+  {
+    name: "Real Racing 2",
+    version: "1.13.50",
+    slug: "real-racing-2",
+    bundleId: "com.firemint.realracing2",
+    size: 315000000,
+    sizeFormatted: "300.5 МБ",
+    manifestUrl: "https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/real-racing-2/manifest.plist",
+    downloadUrl: "https://github.com/soundtrackminus-hash/ios-ota-apps-site/releases/download/real-racing-2-1.13.50/racing2.ipa",
+    iconUrl: "icons/real-racing-2.png",
+    searchTags: "real racing realracing2"
   }
 ];
