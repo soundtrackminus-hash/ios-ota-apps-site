@@ -1,45 +1,25 @@
 {
   "drive_count": 37,
-  "site_count": 23,
+  "site_count": 37,
   "to_remove": [
     {
-      "name": "Анеро Ваш Онлайн Помощник Авито",
-      "slug": "анеро-ваш-онлайн-помощник-авито"
+      "name": "Infinity_Blade_1.4.3",
+      "slug": "infinity-blade-1-4-3"
     },
     {
-      "name": "Happ Proxy Utility Plus",
-      "slug": "happ-proxy-utility-plus"
+      "name": "Infinity_Blade_II_1.3.5",
+      "slug": "infinity-blade-ii-1-3-5"
     },
     {
-      "name": "Solar Sun Compass Сбер Инвестиции",
-      "slug": "solar-sun-compass-сбер-инвестиции"
+      "name": "Infinity_Blade_III_1.4.4",
+      "slug": "infinity-blade-iii-1-4-4"
     },
     {
-      "name": "Аукцион Au Ru Авито",
-      "slug": "аукцион-au-ru-авито"
+      "name": "ЮMoney_11.12.0",
+      "slug": "yumoney-11-12-0"
     }
   ],
   "to_add": [
-    {
-      "name": "Аукцион Au.ru АВИТО",
-      "drive_id": "17HOQgK8XxaWorwZXHorNQJm_JOozWIIU",
-      "drive_name": "Аукцион Au.ru АВИТО.ipa"
-    },
-    {
-      "name": "Anero_ ваш онлайн помощник АВИТО",
-      "drive_id": "1xL3BPhc_cq3c_0ENhm7BkQI-F2RbEbxS",
-      "drive_name": "Anero_ ваш онлайн помощник АВИТО.ipa"
-    },
-    {
-      "name": "Happ - Proxy Utility Plus",
-      "drive_id": "12dIMKNopxCusk8svUeLKhHn2UOoPSN_0",
-      "drive_name": "Happ - Proxy Utility Plus.ipa"
-    },
-    {
-      "name": "Solar_ Sun Compass СБЕР ИНВЕСТИЦИИ",
-      "drive_id": "1PPJujqcKw91_VqUfpeonPgXubfY0_Lu3",
-      "drive_name": "Solar_ Sun Compass СБЕР ИНВЕСТИЦИИ.ipa"
-    },
     {
       "name": "Infinity_Blade_III_1.4.4_iOS_6.0+_selimseidov@gmail.com",
       "drive_id": "1b4XytDtQhTU47FJbIk1hd43xAeiC0ISC",
@@ -56,59 +36,9 @@
       "drive_name": "ЮMoney_11.12.0_iOS_13.0+_selimseidov@gmail.com.ipa"
     },
     {
-      "name": "Юла_6.0",
-      "drive_id": "1kOMlfxrBB0WLhSgHfwgETdeDeK0bv8gs",
-      "drive_name": "Юла_6.0.ipa"
-    },
-    {
-      "name": "ВК Музыка_8.30.1",
-      "drive_id": "1Tqowm8MWJtSIjKg62tLhT3OMqq7z1l0H",
-      "drive_name": "ВК Музыка_8.30.1.ipa"
-    },
-    {
-      "name": "ВК Видео_8.183",
-      "drive_id": "1aTiqrGeusaOR9X-NK4TQzO06BFxQ34Ks",
-      "drive_name": "ВК Видео_8.183.ipa"
-    },
-    {
       "name": "Infinity_Blade_1.4.3_iOS_6.0+_selimseidov@gmail.com",
       "drive_id": "1TtJjRJL3IA0WMo8vj9GPySA0Zp_eatKl",
       "drive_name": "Infinity_Blade_1.4.3_iOS_6.0+_selimseidov@gmail.com.ipa"
-    },
-    {
-      "name": "Online 17.6.1 СБЕРБАНК",
-      "drive_id": "1QY0RP2sgdjhLwblVnh9jIUf-UsU4GD27",
-      "drive_name": "Online 17.6.1 СБЕРБАНК.ipa"
-    },
-    {
-      "name": "GTA III 1.3.13",
-      "drive_id": "1uikAvsQifLFRXqtZxdBSSJ7zQJgscV9q",
-      "drive_name": "GTA III 1.3.13.ipa"
-    },
-    {
-      "name": "GTA  SA 2.2.21",
-      "drive_id": "1d4VTUJU45txQ7Do6TF3nc9qcPIRMo7IP",
-      "drive_name": "GTA  SA 2.2.21.ipa"
-    },
-    {
-      "name": "Real Racing 2 1.13.50",
-      "drive_id": "10OVY0A5Nr_3C6yGJ3R4eRxK9dui8n9h3",
-      "drive_name": "Real Racing 2 1.13.50.ipa"
-    },
-    {
-      "name": "Most Wanted 1.1.3",
-      "drive_id": "1g6hUVJCyBgPckbjAxZxYdAgKAk3NmPms",
-      "drive_name": "Most Wanted 1.1.3.ipa"
-    },
-    {
-      "name": "Дом йоги 10.0.0 MTC",
-      "drive_id": "1i9GK5vXwUA5Ad1LBDpvDkBysVx3-7KcD",
-      "drive_name": "Дом йоги 10.0.0 MTC.ipa"
-    },
-    {
-      "name": "До вершины 5.6.0 ГАЗПРОМБАНК",
-      "drive_id": "1Dv8aP7jxztm8gAo2rhWSYOiiE0IQ4HAZ",
-      "drive_name": "До вершины 5.6.0 ГАЗПРОМБАНК.ipa"
     }
   ],
   "drive_files": [
