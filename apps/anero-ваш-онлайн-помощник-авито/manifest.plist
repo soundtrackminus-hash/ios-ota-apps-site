@@ -11,19 +11,19 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://github.com/soundtrackminus-hash/ios-ota-apps-site/releases/download/anero-ваш-онлайн-помощник-авито-1.0.0/anero-ваш-онлайн-помощник-авито.ipa</string>
+					<string>https://github.com/soundtrackminus-hash/ios-ota-apps-site/releases/download/anero-%D0%B2%D0%B0%D1%88-%D0%BE%D0%BD%D0%BB%D0%B0%D0%B9%D0%BD-%D0%BF%D0%BE%D0%BC%D0%BE%D1%89%D0%BD%D0%B8%D0%BA-%D0%B0%D0%B2%D0%B8%D1%82%D0%BE-1.0.0/anero-.-.-.-.ipa</string>
 				</dict>
 			</array>
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.example.anero-ваш-онлайн-помощник-авито</string>
+				<string>online.anero.app</string>
 				<key>bundle-version</key>
-				<string>1.0.0</string>
+				<string>1786539266</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>title</key>
-				<string>Anero_ ваш онлайн помощник АВИТО</string>
+				<string>Anero</string>
 			</dict>
 		</dict>
 	</array>

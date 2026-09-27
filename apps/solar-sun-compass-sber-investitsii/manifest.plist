@@ -11,19 +11,19 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://github.com/soundtrackminus-hash/ios-ota-apps-site/releases/download/solar-sun-compass-sber-investitsii-1.0.0/solar-sun-compass-sber-investitsii.ipa</string>
+					<string>https://github.com/soundtrackminus-hash/ios-ota-apps-site/releases/download/8pro-3.1.1/8pro.ipa</string>
 				</dict>
 			</array>
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.example.solar-sun-compass-sber-investitsii</string>
+				<string>com.kitchen.brief</string>
 				<key>bundle-version</key>
-				<string>1.0.0</string>
+				<string>1</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>title</key>
-				<string>Solar_ Sun Compass СБЕР ИНВЕСТИЦИИ</string>
+				<string>8PRO</string>
 			</dict>
 		</dict>
 	</array>

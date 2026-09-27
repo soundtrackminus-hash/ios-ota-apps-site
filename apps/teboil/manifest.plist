@@ -17,13 +17,13 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.example.teboil</string>
+				<string>com.teboil.azs</string>
 				<key>bundle-version</key>
-				<string>1.0.0</string>
+				<string>266</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>title</key>
-				<string>TEBOIL</string>
+				<string>Teboil</string>
 			</dict>
 		</dict>
 	</array>

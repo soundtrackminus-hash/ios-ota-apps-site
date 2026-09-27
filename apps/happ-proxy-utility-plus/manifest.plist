@@ -17,13 +17,13 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.example.happ-proxy-utility-plus</string>
+				<string>su.ffg.happ.ruplus2</string>
 				<key>bundle-version</key>
-				<string>1.0.0</string>
+				<string>2607291116</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>title</key>
-				<string>Happ Proxy Utility Plus</string>
+				<string>Happ Plus</string>
 			</dict>
 		</dict>
 	</array>

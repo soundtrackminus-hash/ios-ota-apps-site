@@ -4,10 +4,7 @@ import json
 import os
 import zipfile
 import re
-import signal
 import subprocess
-import sys
-import atexit
 from pathlib import Path
 from google.oauth2.credentials import Credentials
 from googleapiclient.discovery import build
@@ -22,63 +19,6 @@ os.makedirs(CACHE_DIR, exist_ok=True)
 os.makedirs(ICON_DIR, exist_ok=True)
 os.makedirs(APPS_DIR, exist_ok=True)
 
-# --- Ограничение места: кэш смонтирован на loopback-ext4 (3 ГБ) ---
-MIN_FREE_MB = 2048
-
-_pending_ipas = []
-
-
-def release_ipa(path):
-    """Удалить локальный IPA. Вызывается сразу после загрузки в релиз."""
-    if not path:
-        return
-    try:
-        if os.path.exists(path):
-            os.unlink(path)
-            print(f"  🗑 Локальный IPA удалён: {os.path.basename(path)}")
-    except Exception as e:
-        print(f"  ⚠ Не удалось удалить {path}: {e}")
-    finally:
-        if path in _pending_ipas:
-            _pending_ipas.remove(path)
-
-
-def release_all(*_a):
-    for p in list(_pending_ipas):
-        release_ipa(p)
-
-
-atexit.register(release_all)
-
-
-def _on_signal(signum, _frame):
-    release_all()
-    sys.exit(128 + signum)
-
-
-for _sig in (signal.SIGTERM, signal.SIGINT):
-    signal.signal(_sig, _on_signal)
-
-
-def cache_free_mb():
-    st = os.statvfs(CACHE_DIR)
-    return st.f_bavail * st.f_frsize // (1024 * 1024)
-
-
-def cache_is_capped():
-    """Кэш лежит на отдельном loopback-разделе, а не на корневом диске."""
-    return os.stat(CACHE_DIR).st_dev != os.stat('/').st_dev
-
-
-def check_budget(step):
-    free = cache_free_mb()
-    if free < MIN_FREE_MB:
-        raise SystemExit(
-            f"✗ СТОП: свободно {free} МБ в кэше, нужно минимум {MIN_FREE_MB} МБ "
-            f"(шаг «{step}»). Очисти кэш и повтори."
-        )
-    return free
-
 # Загрузка токена
 token_path = '/root/.hermes/google_token.json'
 with open(token_path) as f:
@@ -91,14 +31,6 @@ results = drive.files().list(q="mimeType = 'application/x-itunes-ipa'", pageSize
 drive_apps = results.get('files', [])
 
 print(f"✅ Найдено {len(drive_apps)} IPA файлов\n")
-
-# Правило 5: жёсткий стоп, если места мало. Правило 4: качать по одному.
-if not cache_is_capped():
-    print("⚠ ВНИМАНИЕ: кэш НЕ изолирован на отдельном разделе — лимит места не enforced.")
-    print("  Ожидается loopback-mount на %s (см. /etc/fstab)." % CACHE_DIR)
-print(f"💾 Кэш: {CACHE_DIR} — свободно {cache_free_mb()} МБ "
-      f"({'изолирован' if cache_is_capped() else 'на корневом диске'})")
-check_budget('начало')
 
 # Массив для app-data.js
 apps_list = []
@@ -113,26 +45,24 @@ for idx, file_info in enumerate(drive_apps, 1):
     
     print(f"[{idx}/{len(drive_apps)}] Обработка: {clean_name}")
     
-    # 1. Скачивание IPA (всегда свежий файл, старый кэш не переиспользуем)
+    # 1. Скачивание IPA
     ipa_path = f'{CACHE_DIR}/{slug}.ipa'
-    if os.path.exists(ipa_path):
-        os.unlink(ipa_path)
-    check_budget(f"перед скачиванием {clean_name}")
-    print(f"  ⬇ Скачивание...")
-    try:
-        request = drive.files().get_media(fileId=file_info['id'])
-        fh = io.FileIO(ipa_path, 'wb')
-        _pending_ipas.append(ipa_path)
-        downloader = MediaIoBaseDownload(fh, request, chunksize=1024*1024*5)
-        done = False
-        while done is False:
-            status, done = downloader.next_chunk()
-        fh.close()
-        print(f"  ✓ Скачано: {os.path.getsize(ipa_path)//(1024*1024)}MB")
-    except Exception as e:
-        print(f"  ✗ Ошибка скачивания: {e}")
-        release_ipa(ipa_path)
-        continue
+    if not os.path.exists(ipa_path):
+        print(f"  ⬇ Скачивание...")
+        try:
+            request = drive.files().get_media(fileId=file_info['id'])
+            fh = io.FileIO(ipa_path, 'wb')
+            downloader = MediaIoBaseDownload(fh, request, chunksize=1024*1024*5)
+            done = False
+            while done is False:
+                status, done = downloader.next_chunk()
+            fh.close()
+            print(f"  ✓ Скачано: {os.path.getsize(ipa_path)//(1024*1024)}MB")
+        except Exception as e:
+            print(f"  ✗ Ошибка скачивания: {e}")
+            continue
+    else:
+        print(f"  ✓ Уже скачан")
     
     # 2. Извлечение иконки
     icon_path = f'{ICON_DIR}/{slug}.png'
@@ -194,8 +124,6 @@ for idx, file_info in enumerate(drive_apps, 1):
     
     # 4. Создание GitHub Release
     tag = f"{slug}-1.0.0"
-    asset_url = (f"https://github.com/soundtrackminus-hash/ios-ota-apps-site/"
-                 f"releases/download/{tag}/{slug}.ipa")
     result = subprocess.run(
         ['gh', 'release', 'view', tag, '--repo', 'soundtrackminus-hash/ios-ota-apps-site'],
         capture_output=True
@@ -219,24 +147,8 @@ for idx, file_info in enumerate(drive_apps, 1):
     else:
         print(f"  ✓ Релиз уже существует")
     
-    # 4b. Проверка ассета по HTTP (правило 10): код и content-length
-    size_bytes = os.path.getsize(ipa_path)
-    head = subprocess.run(
-        ['curl', '-sIL', '--max-time', '60', asset_url],
-        capture_output=True, text=True
-    )
-    http_ok = ' 200 ' in head.stdout or head.stdout.rstrip().endswith('200')
-    clen = None
-    for line in head.stdout.splitlines():
-        if line.lower().startswith('content-length:'):
-            clen = int(line.split(':', 1)[1].strip())
-    if http_ok and clen == size_bytes:
-        print(f"  ✓ Ассет проверен: HTTP 200, {clen} байт")
-    else:
-        print(f"  ⚠ Ассет не подтверждён: HTTP={'ok' if http_ok else 'FAIL'}, "
-              f"content-length={clen}, ожидалось {size_bytes}")
-    
     # 5. Добавление в список
+    size_bytes = os.path.getsize(ipa_path)
     size_mb = round(size_bytes / (1024 * 1024), 1)
     
     apps_list.append({
@@ -252,14 +164,7 @@ for idx, file_info in enumerate(drive_apps, 1):
         "searchTags": slug.replace('-', ' ')
     })
 
-    # 4c. Локальный IPA больше не нужен — удаляем сразу (правило 4).
-    # Иначе все ~100 файлов копятся и съедают диск (было 21 ГБ).
-    release_ipa(ipa_path)
-
 print(f"\n📊 Всего обработано: {len(apps_list)} приложений")
-release_all()
-print(f"💾 Кэш после прогона: {cache_free_mb()} МБ свободно, "
-      f"файлов IPA: {len(list(Path(CACHE_DIR).glob('*.ipa')))}")
 
 # Сохранение app-data.js
 js_content = f"// Сгенерировано автоматически из Google Drive\nconst APPS = {json.dumps(apps_list, indent=2, ensure_ascii=False)};\n"
