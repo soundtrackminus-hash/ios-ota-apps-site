@@ -11,19 +11,19 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://github.com/soundtrackminus-hash/ios-ota-apps-site/releases/download/afina-byudzhet-psb-bank-1.0.0/afina-byudzhet-psb-bank.ipa</string>
+					<string>https://github.com/soundtrackminus-hash/ios-ota-apps-site/releases/download/afina-byudzhet-psb-bank-1.0.0/-.-.-.ipa</string>
 				</dict>
 			</array>
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.example.afina-byudzhet-psb-bank</string>
+				<string>uz.svoybyudzhet</string>
 				<key>bundle-version</key>
-				<string>1.0.0</string>
+				<string>3</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>title</key>
-				<string>Афина бюджет ПСБ БАНК</string>
+				<string>Афина бюджет</string>
 			</dict>
 		</dict>
 	</array>

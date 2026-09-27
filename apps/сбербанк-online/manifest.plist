@@ -11,19 +11,19 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://github.com/soundtrackminus-hash/ios-ota-apps-site/releases/download/ak-bars-onlayn-1.0.0/-.-.ipa</string>
+					<string>https://github.com/soundtrackminus-hash/ios-ota-apps-site/releases/download/online-com-inv-gen-17.6.1/online-com-inv-gen.ipa</string>
 				</dict>
 			</array>
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>ru.abb.akbarsonline</string>
+				<string>com.inv.gen</string>
 				<key>bundle-version</key>
-				<string>4837</string>
+				<string>17.6.1</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>title</key>
-				<string>Ак Барс Банк</string>
+				<string>СберБанк</string>
 			</dict>
 		</dict>
 	</array>
