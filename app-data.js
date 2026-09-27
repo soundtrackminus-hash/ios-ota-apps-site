@@ -2,18 +2,6 @@
 const APPS = [
   {
     "name": "Афина бюджет",
-    "version": "1.7.2",
-    "slug": "afina-byudzhet",
-    "bundleId": "com.inv.gen",
-    "size": 0,
-    "sizeFormatted": "Unknown",
-    "manifestUrl": "https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/afina-byudzhet/manifest.plist",
-    "downloadUrl": "https://github.com/soundtrackminus-hash/ios-ota-apps-site/releases/download/afina-byudzhet-1.0.0/afina-byudzhet.ipa",
-    "iconUrl": "icons/hz-poster.svg",
-    "searchTags": "afina byudzhet"
-  },
-  {
-    "name": "Афина бюджет",
     "version": "3",
     "slug": "afina-byudzhet-psb-bank",
     "bundleId": "com.inv.gen",
@@ -27,18 +15,6 @@ const APPS = [
   {
     "name": "Ак Барс Банк",
     "version": "4837",
-    "slug": "ak-bars",
-    "bundleId": "com.inv.gen",
-    "size": 0,
-    "sizeFormatted": "Unknown",
-    "manifestUrl": "https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/ak-bars/manifest.plist",
-    "downloadUrl": "https://github.com/soundtrackminus-hash/ios-ota-apps-site/releases/download/ak-bars-1.0.0/ak-bars.ipa",
-    "iconUrl": "icons/ak-bars.png",
-    "searchTags": "ak bars"
-  },
-  {
-    "name": "Ак Барс Банк",
-    "version": "4837",
     "slug": "ak-bars-onlayn",
     "bundleId": "com.inv.gen",
     "size": 0,
@@ -47,18 +23,6 @@ const APPS = [
     "downloadUrl": "https://github.com/soundtrackminus-hash/ios-ota-apps-site/releases/download/ak-bars-onlayn-1.0.0/ak-bars-onlayn.ipa",
     "iconUrl": "icons/ak-bars-onlayn.png",
     "searchTags": "ak bars onlayn"
-  },
-  {
-    "name": "Anero",
-    "version": "230.1",
-    "slug": "anero-online-anero-app",
-    "bundleId": "com.inv.gen",
-    "size": 0,
-    "sizeFormatted": "Unknown",
-    "manifestUrl": "https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/anero-online-anero-app/manifest.plist",
-    "downloadUrl": "https://github.com/soundtrackminus-hash/ios-ota-apps-site/releases/download/anero-online-anero-app-1.0.0/anero-online-anero-app.ipa",
-    "iconUrl": "icons/hz-poster.svg",
-    "searchTags": "anero online anero app"
   },
   {
     "name": "Anero",
@@ -143,18 +107,6 @@ const APPS = [
     "downloadUrl": "https://github.com/soundtrackminus-hash/ios-ota-apps-site/releases/download/bak-bonus-1.0.0/bak-bonus.ipa",
     "iconUrl": "icons/hz-poster.svg",
     "searchTags": "bak bonus"
-  },
-  {
-    "name": "Без наличных",
-    "version": "3.3.72",
-    "slug": "bez-nalichnyh",
-    "bundleId": "com.inv.gen",
-    "size": 0,
-    "sizeFormatted": "Unknown",
-    "manifestUrl": "https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/bez-nalichnyh/manifest.plist",
-    "downloadUrl": "https://github.com/soundtrackminus-hash/ios-ota-apps-site/releases/download/bez-nalichnyh-1.0.0/bez-nalichnyh.ipa",
-    "iconUrl": "icons/hz-poster.svg",
-    "searchTags": "bez nalichnyh"
   },
   {
     "name": "Без наличных",
@@ -395,18 +347,6 @@ const APPS = [
     "downloadUrl": "https://github.com/soundtrackminus-hash/ios-ota-apps-site/releases/download/gta-sa-2-2-21-1.0.0/gta-sa-2-2-21.ipa",
     "iconUrl": "icons/gta-sa-2-2-21.png",
     "searchTags": "gta sa 2 2 21"
-  },
-  {
-    "name": "Happ Plus",
-    "version": "5.3.0",
-    "slug": "happ-plus",
-    "bundleId": "com.inv.gen",
-    "size": 0,
-    "sizeFormatted": "Unknown",
-    "manifestUrl": "https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/happ-plus/manifest.plist",
-    "downloadUrl": "https://github.com/soundtrackminus-hash/ios-ota-apps-site/releases/download/happ-plus-1.0.0/happ-plus.ipa",
-    "iconUrl": "icons/hz-poster.svg",
-    "searchTags": "happ plus"
   },
   {
     "name": "Happ Plus",
@@ -937,18 +877,6 @@ const APPS = [
     "searchTags": "splitactivities"
   },
   {
-    "name": "SplitActivities",
-    "version": "28052025.3",
-    "slug": "splitactivities-plitactivities-app",
-    "bundleId": "com.inv.gen",
-    "size": 0,
-    "sizeFormatted": "Unknown",
-    "manifestUrl": "https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/splitactivities-plitactivities-app/manifest.plist",
-    "downloadUrl": "https://github.com/soundtrackminus-hash/ios-ota-apps-site/releases/download/splitactivities-plitactivities-app-1.0.0/splitactivities-plitactivities-app.ipa",
-    "iconUrl": "icons/hz-poster.svg",
-    "searchTags": "splitactivities plitactivities app"
-  },
-  {
     "name": "Spotluma",
     "version": "2",
     "slug": "spotluma",
@@ -1284,17 +1212,5 @@ const APPS = [
     "downloadUrl": "https://github.com/soundtrackminus-hash/ios-ota-apps-site/releases/download/учимся-словам-1.0.0/учимся-словам.ipa",
     "iconUrl": "icons/учимся-словам.png",
     "searchTags": "учимся словам"
-  },
-  {
-    "name": "Яндекс Сим",
-    "version": "1.0.0",
-    "slug": "яндекс-сим",
-    "bundleId": "com.inv.gen",
-    "size": 0,
-    "sizeFormatted": "Unknown",
-    "manifestUrl": "https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/яндекс-сим/manifest.plist",
-    "downloadUrl": "https://github.com/soundtrackminus-hash/ios-ota-apps-site/releases/download/яндекс-сим-1.0.0/яндекс-сим.ipa",
-    "iconUrl": "icons/яндекс-сим.png",
-    "searchTags": "яндекс сим"
   }
-];
+]];
