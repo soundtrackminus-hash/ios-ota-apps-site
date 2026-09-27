@@ -2,9 +2,14 @@ function renderApps(apps) {
   const container = document.getElementById('apps-container');
   container.innerHTML = apps.map(app => `
     <article class="app-card" data-search="${app.searchTags} ${app.name}">
-      <div class="app-card__header">
-        <div class="app-card__icon">
-          <img src="${app.iconUrl}" alt="${app.name}" loading="lazy">
+      <div class="app-card__top">
+        <div class="app-card__left">
+          <div class="app-card__icon">
+            <img src="${app.iconUrl}" alt="${app.name}" loading="lazy">
+          </div>
+          <a class="install-button" href="itms-services://?action=download-manifest&url=${encodeURIComponent(app.manifestUrl)}">
+            Скачать
+          </a>
         </div>
         ${app.qrUrl ? `<button class="qr-btn" onclick="showQR('${app.qrUrl}', '${app.name}')">QR код</button>` : ''}
       </div>
@@ -12,14 +17,9 @@ function renderApps(apps) {
         <h2 class="app-card__name">${app.name}</h2>
         <p class="app-card__size">${app.sizeFormatted}</p>
       </div>
-      <div class="app-card__actions">
-        <button class="copy-btn" onclick="copyLink('itms-services://?action=download-manifest&url=${encodeURIComponent(app.manifestUrl)}', this)">
-          Скопировать ссылку
-        </button>
-        <a class="install-button" href="itms-services://?action=download-manifest&url=${encodeURIComponent(app.manifestUrl)}">
-          Скачать
-        </a>
-      </div>
+      <button class="copy-btn" onclick="copyLink('itms-services://?action=download-manifest&url=${encodeURIComponent(app.manifestUrl)}', this)">
+        Скопировать ссылку
+      </button>
     </article>
   `).join('');
 }
