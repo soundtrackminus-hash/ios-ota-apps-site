@@ -685,18 +685,6 @@ const APPS = [
     "searchTags": "online"
   },
   {
-    "name": "Online 17.6.1 СБЕРБАНК",
-    "version": "17.6.1",
-    "slug": "online-17-6-1-sberbank",
-    "bundleId": "com.inv.gen",
-    "size": 0,
-    "sizeFormatted": "Unknown",
-    "manifestUrl": "https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/online-17-6-1-sberbank/manifest.plist",
-    "downloadUrl": "https://github.com/soundtrackminus-hash/ios-ota-apps-site/releases/download/online-17-6-1-sberbank-1.0.0/online-17-6-1-sberbank.ipa",
-    "iconUrl": "icons/online-17-6-1-sberbank.png",
-    "searchTags": "online 17 6 1 sberbank"
-  },
-  {
     "name": "Online",
     "version": "17.6.1",
     "slug": "online-com-inv-gen",
@@ -1309,4 +1297,4 @@ const APPS = [
     "iconUrl": "icons/яндекс-сим.png",
     "searchTags": "яндекс сим"
   }
-];
+]];
