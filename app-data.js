@@ -1297,4 +1297,4 @@ const APPS = [
     "iconUrl": "icons/яндекс-сим.png",
     "searchTags": "яндекс сим"
   }
-]];
+];
