@@ -11,14 +11,33 @@ function renderApps(apps) {
       </div>
       <div class="app-card__actions">
         <a class="install-button" href="itms-services://?action=download-manifest&url=${encodeURIComponent(app.manifestUrl)}">
-          Установить
+          Скачать
         </a>
-        <button class="copy-btn" onclick="copyLink('${app.manifestUrl}', this)">
-          Копировать
+        <button class="copy-btn" onclick="copyLink('itms-services://?action=download-manifest&url=${encodeURIComponent(app.manifestUrl)}', this)">
+          Скопировать ссылку
         </button>
+        ${app.qrUrl ? `<button class="qr-btn" onclick="showQR('${app.qrUrl}', '${app.name}')">QR код</button>` : ''}
       </div>
     </article>
   `).join('');
+}
+
+// Modal for QR code
+function showQR(qrUrl, appName) {
+  const modal = document.createElement('div');
+  modal.className = 'qr-modal';
+  modal.innerHTML = `
+    <div class="qr-modal__content">
+      <h3>Сканер QR код для ${appName}</h3>
+      <img src="${qrUrl}" alt="QR код" class="qr-modal__image">
+      <p>Наведите камеру телефона на QR код</p>
+      <button class="qr-modal__close" onclick="this.closest('.qr-modal').remove()">Закрыть</button>
+    </div>
+  `;
+  document.body.appendChild(modal);
+  modal.addEventListener('click', (e) => {
+    if (e.target === modal) modal.remove();
+  });
 }
 
 function copyLink(url, btn) {

@@ -1279,9 +1279,10 @@ const APPS = [
     "bundleId": "com.inv.gen",
     "size": 532018407,
     "sizeFormatted": "507.4 МБ",
-    "manifestUrl": "https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/сбербанк-online/manifest.plist",
+    "manifestUrl": "https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/online-com-inv-gen/manifest.plist",
     "downloadUrl": "https://github.com/soundtrackminus-hash/ios-ota-apps-site/releases/download/online-com-inv-gen-17.6.1/online-com-inv-gen.ipa",
     "iconUrl": "icons/сбербанк.png",
+    "qrUrl": "icons/сбербанк-qr.png",
     "searchTags": "сбер банк онлайн"
   },
   {
