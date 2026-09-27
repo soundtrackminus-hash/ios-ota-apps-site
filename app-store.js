@@ -10,13 +10,13 @@ function renderApps(apps) {
         <p class="app-card__size">${app.sizeFormatted}</p>
       </div>
       <div class="app-card__actions">
-        <a class="install-button" href="itms-services://?action=download-manifest&url=${encodeURIComponent(app.manifestUrl)}">
-          Скачать
-        </a>
+        ${app.qrUrl ? `<button class="qr-btn" onclick="showQR('${app.qrUrl}', '${app.name}')">QR код</button>` : ''}
         <button class="copy-btn" onclick="copyLink('itms-services://?action=download-manifest&url=${encodeURIComponent(app.manifestUrl)}', this)">
           Скопировать ссылку
         </button>
-        ${app.qrUrl ? `<button class="qr-btn" onclick="showQR('${app.qrUrl}', '${app.name}')">QR код</button>` : ''}
+        <a class="install-button" href="itms-services://?action=download-manifest&url=${encodeURIComponent(app.manifestUrl)}">
+          Скачать
+        </a>
       </div>
     </article>
   `).join('');
