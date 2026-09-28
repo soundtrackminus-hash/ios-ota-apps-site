@@ -1,5 +1,5 @@
 // Автоматически сгенерированный список приложений
-const APPS = [
+const APPS = [[
   {
     "name": "Афина бюджет",
     "version": "3",
@@ -143,18 +143,6 @@ const APPS = [
     "downloadUrl": "https://github.com/soundtrackminus-hash/ios-ota-apps-site/releases/download/craftersy-tbank-1.0.0/craftersy-tbank.ipa",
     "iconUrl": "icons/craftersy-tbank.png",
     "searchTags": "craftersy tbank"
-  },
-  {
-    "name": "Craftersy ТБАНК",
-    "version": "1.0.0",
-    "slug": "craftersy-тбанк",
-    "bundleId": "com.inv.gen",
-    "size": 0,
-    "sizeFormatted": "Unknown",
-    "manifestUrl": "https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/craftersy-тбанк/manifest.plist",
-    "downloadUrl": "https://github.com/soundtrackminus-hash/ios-ota-apps-site/releases/download/craftersy-тбанк-1.0.0/craftersy-тбанк.ipa",
-    "iconUrl": "icons/hz-poster.svg",
-    "searchTags": "craftersy тбанк"
   },
   {
     "name": "Делим Вместе Альфа-Банк",
@@ -313,18 +301,6 @@ const APPS = [
     "searchTags": "gta iii"
   },
   {
-    "name": "GTA III",
-    "version": "1",
-    "slug": "gta-iii-1-3-13",
-    "bundleId": "com.inv.gen",
-    "size": 0,
-    "sizeFormatted": "Unknown",
-    "manifestUrl": "https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/gta-iii-1-3-13/manifest.plist",
-    "downloadUrl": "https://github.com/soundtrackminus-hash/ios-ota-apps-site/releases/download/gta-iii-1-3-13-1.0.0/gta-iii-1-3-13.ipa",
-    "iconUrl": "icons/gta-iii-1-3-13.png",
-    "searchTags": "gta iii 1 3 13"
-  },
-  {
     "name": "GTA: SA",
     "version": "2.2.21",
     "slug": "gta-sa",
@@ -431,18 +407,6 @@ const APPS = [
     "downloadUrl": "https://github.com/soundtrackminus-hash/ios-ota-apps-site/releases/download/infinity-blade-1-4-3-1.0.0/infinity-blade-1-4-3.ipa",
     "iconUrl": "icons/infinity-blade-1-4-3.png",
     "searchTags": "infinity blade 1 4 3"
-  },
-  {
-    "name": "Infinity Blade",
-    "version": "1",
-    "slug": "infinity-blade-1-4-3-ios-6-0-selimseidov-gmail-com",
-    "bundleId": "com.inv.gen",
-    "size": 0,
-    "sizeFormatted": "Unknown",
-    "manifestUrl": "https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/infinity-blade-1-4-3-ios-6-0-selimseidov-gmail-com/manifest.plist",
-    "downloadUrl": "https://github.com/soundtrackminus-hash/ios-ota-apps-site/releases/download/infinity-blade-1-4-3-ios-6-0-selimseidov-gmail-com-1.0.0/infinity-blade-1-4-3-ios-6-0-selimseidov-gmail-com.ipa",
-    "iconUrl": "icons/hz-poster.svg",
-    "searchTags": "infinity blade 1 4 3 ios 6 0 selimseidov gmail com"
   },
   {
     "name": "Infinity_Blade_II_1.3.5",
@@ -577,18 +541,6 @@ const APPS = [
     "searchTags": "most wanted"
   },
   {
-    "name": "Most Wanted",
-    "version": "1",
-    "slug": "most-wanted-1-1-3",
-    "bundleId": "com.inv.gen",
-    "size": 0,
-    "sizeFormatted": "Unknown",
-    "manifestUrl": "https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/most-wanted-1-1-3/manifest.plist",
-    "downloadUrl": "https://github.com/soundtrackminus-hash/ios-ota-apps-site/releases/download/most-wanted-1-1-3-1.0.0/most-wanted-1-1-3.ipa",
-    "iconUrl": "icons/most-wanted-1-1-3.png",
-    "searchTags": "most wanted 1 1 3"
-  },
-  {
     "name": "Notion",
     "version": "0.4.2220",
     "slug": "notion",
@@ -611,18 +563,6 @@ const APPS = [
     "downloadUrl": "https://github.com/soundtrackminus-hash/ios-ota-apps-site/releases/download/ok-1.0.0/ok.ipa",
     "iconUrl": "icons/hz-poster.svg",
     "searchTags": "ok"
-  },
-  {
-    "name": "Online",
-    "version": "17.6.1",
-    "slug": "online",
-    "bundleId": "com.inv.gen",
-    "size": 0,
-    "sizeFormatted": "Unknown",
-    "manifestUrl": "https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/online/manifest.plist",
-    "downloadUrl": "https://github.com/soundtrackminus-hash/ios-ota-apps-site/releases/download/online-1.0.0/online.ipa",
-    "iconUrl": "icons/hz-poster.svg",
-    "searchTags": "online"
   },
   {
     "name": "Online",
@@ -695,18 +635,6 @@ const APPS = [
     "downloadUrl": "https://github.com/soundtrackminus-hash/ios-ota-apps-site/releases/download/real-racing-2-1.0.0/real-racing-2.ipa",
     "iconUrl": "icons/real-racing-2.png",
     "searchTags": "real racing 2"
-  },
-  {
-    "name": "Real Racing 2",
-    "version": "1",
-    "slug": "real-racing-2-1-13-50",
-    "bundleId": "com.inv.gen",
-    "size": 0,
-    "sizeFormatted": "Unknown",
-    "manifestUrl": "https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/real-racing-2-1-13-50/manifest.plist",
-    "downloadUrl": "https://github.com/soundtrackminus-hash/ios-ota-apps-site/releases/download/real-racing-2-1-13-50-1.0.0/real-racing-2-1-13-50.ipa",
-    "iconUrl": "icons/real-racing-2-1-13-50.png",
-    "searchTags": "real racing 2 1 13 50"
   },
   {
     "name": "Relaxia",
@@ -949,18 +877,6 @@ const APPS = [
     "searchTags": "vk music"
   },
   {
-    "name": "VK Music",
-    "version": "1",
-    "slug": "vk-music-8-30-1",
-    "bundleId": "com.inv.gen",
-    "size": 0,
-    "sizeFormatted": "Unknown",
-    "manifestUrl": "https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/vk-music-8-30-1/manifest.plist",
-    "downloadUrl": "https://github.com/soundtrackminus-hash/ios-ota-apps-site/releases/download/vk-music-8-30-1-1.0.0/vk-music-8-30-1.ipa",
-    "iconUrl": "icons/vk-music-8-30-1.png",
-    "searchTags": "vk music 8 30 1"
-  },
-  {
     "name": "VK Video",
     "version": "8.183",
     "slug": "vk-video",
@@ -971,18 +887,6 @@ const APPS = [
     "downloadUrl": "https://github.com/soundtrackminus-hash/ios-ota-apps-site/releases/download/vk-video-1.0.0/vk-video.ipa",
     "iconUrl": "icons/hz-poster.svg",
     "searchTags": "vk video"
-  },
-  {
-    "name": "VK Video",
-    "version": "1",
-    "slug": "vk-video-8-183",
-    "bundleId": "com.inv.gen",
-    "size": 0,
-    "sizeFormatted": "Unknown",
-    "manifestUrl": "https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/vk-video-8-183/manifest.plist",
-    "downloadUrl": "https://github.com/soundtrackminus-hash/ios-ota-apps-site/releases/download/vk-video-8-183-1.0.0/vk-video-8-183.ipa",
-    "iconUrl": "icons/vk-video-8-183.png",
-    "searchTags": "vk video 8 183"
   },
   {
     "name": "Яндекс Банк",
@@ -1021,18 +925,6 @@ const APPS = [
     "searchTags": "yula"
   },
   {
-    "name": "Юла",
-    "version": "1",
-    "slug": "yula-6-0",
-    "bundleId": "com.inv.gen",
-    "size": 0,
-    "sizeFormatted": "Unknown",
-    "manifestUrl": "https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/yula-6-0/manifest.plist",
-    "downloadUrl": "https://github.com/soundtrackminus-hash/ios-ota-apps-site/releases/download/yula-6-0-1.0.0/yula-6-0.ipa",
-    "iconUrl": "icons/yula-6-0.png",
-    "searchTags": "yula 6 0"
-  },
-  {
     "name": "ЮMoney",
     "version": "11.12.0",
     "slug": "yumoney",
@@ -1055,18 +947,6 @@ const APPS = [
     "downloadUrl": "https://github.com/soundtrackminus-hash/ios-ota-apps-site/releases/download/yumoney-11-12-0-1.0.0/yumoney-11-12-0.ipa",
     "iconUrl": "icons/yumoney-11-12-0.png",
     "searchTags": "yumoney 11 12 0"
-  },
-  {
-    "name": "ЮMoney",
-    "version": "1",
-    "slug": "yumoney-11-12-0-ios-13-0-selimseidov-gmail-com",
-    "bundleId": "com.inv.gen",
-    "size": 0,
-    "sizeFormatted": "Unknown",
-    "manifestUrl": "https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/yumoney-11-12-0-ios-13-0-selimseidov-gmail-com/manifest.plist",
-    "downloadUrl": "https://github.com/soundtrackminus-hash/ios-ota-apps-site/releases/download/yumoney-11-12-0-ios-13-0-selimseidov-gmail-com-1.0.0/yumoney-11-12-0-ios-13-0-selimseidov-gmail-com.ipa",
-    "iconUrl": "icons/hz-poster.svg",
-    "searchTags": "yumoney 11 12 0 ios 13 0 selimseidov gmail com"
   },
   {
     "name": "Здоровье",
@@ -1165,18 +1045,6 @@ const APPS = [
     "searchTags": "делим вместе альфа банк"
   },
   {
-    "name": "Здоровье и страхование СОГАЗ",
-    "version": "1.0.0",
-    "slug": "здоровье-и-страхование-согаз",
-    "bundleId": "com.inv.gen",
-    "size": 0,
-    "sizeFormatted": "Unknown",
-    "manifestUrl": "https://soundtrackminus-hash.github.io/ios-ota-apps-site/apps/здоровье-и-страхование-согаз/manifest.plist",
-    "downloadUrl": "https://github.com/soundtrackminus-hash/ios-ota-apps-site/releases/download/здоровье-и-страхование-согаз-1.0.0/здоровье-и-страхование-согаз.ipa",
-    "iconUrl": "icons/здоровье-и-страхование-согаз.png",
-    "searchTags": "здоровье и страхование согаз"
-  },
-  {
     "name": "Мобио СБЕРМОБАЙЛ",
     "version": "1.0.0",
     "slug": "мобио-сбермобайл",
@@ -1213,4 +1081,4 @@ const APPS = [
     "iconUrl": "icons/учимся-словам.png",
     "searchTags": "учимся словам"
   }
-];
+]];
