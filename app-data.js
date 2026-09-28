@@ -61,7 +61,7 @@ const APPS = [
     "searchTags": "au"
   },
   {
-    "name": "8PRO",
+    "name": "Avito (Аукцион)",
     "version": "1",
     "slug": "auktsion-au-ru-avito",
     "bundleId": "com.inv.gen",
@@ -133,7 +133,7 @@ const APPS = [
     "searchTags": "craftersy"
   },
   {
-    "name": "8PRO",
+    "name": "Craftersy ТБАНК",
     "version": "1",
     "slug": "craftersy-tbank",
     "bundleId": "com.inv.gen",
@@ -157,7 +157,7 @@ const APPS = [
     "searchTags": "craftersy тбанк"
   },
   {
-    "name": "8PRO",
+    "name": "Делим Вместе Альфа-Банк",
     "version": "1",
     "slug": "delim-vmeste-alfa-bank",
     "bundleId": "com.inv.gen",
@@ -181,7 +181,7 @@ const APPS = [
     "searchTags": "do vershiny"
   },
   {
-    "name": "8PRO",
+    "name": "До вершины (Газпромбанк)",
     "version": "1",
     "slug": "do-vershiny-5-6-0-gazprombank",
     "bundleId": "com.inv.gen",
@@ -205,7 +205,7 @@ const APPS = [
     "searchTags": "dom yogi"
   },
   {
-    "name": "8PRO",
+    "name": "Дом йоги (МТС)",
     "version": "1",
     "slug": "dom-yogi-10-0-0-mtc",
     "bundleId": "com.inv.gen",
@@ -241,7 +241,7 @@ const APPS = [
     "searchTags": "fuelintime"
   },
   {
-    "name": "8PRO",
+    "name": "FuelInTime ТБанк Инвестиции",
     "version": "1",
     "slug": "fuellntime-tbank-investitsii",
     "bundleId": "com.inv.gen",
@@ -277,7 +277,7 @@ const APPS = [
     "searchTags": "getquot"
   },
   {
-    "name": "8PRO",
+    "name": "GetQuot ВТБ Инвестиции",
     "version": "1",
     "slug": "getquot-vtb-investitsii",
     "bundleId": "com.inv.gen",
@@ -313,7 +313,7 @@ const APPS = [
     "searchTags": "gta iii"
   },
   {
-    "name": "8PRO",
+    "name": "GTA III",
     "version": "1",
     "slug": "gta-iii-1-3-13",
     "bundleId": "com.inv.gen",
@@ -337,7 +337,7 @@ const APPS = [
     "searchTags": "gta sa"
   },
   {
-    "name": "8PRO",
+    "name": "GTA San Andreas",
     "version": "1",
     "slug": "gta-sa-2-2-21",
     "bundleId": "com.inv.gen",
@@ -373,7 +373,7 @@ const APPS = [
     "searchTags": "imanager"
   },
   {
-    "name": "8PRO",
+    "name": "iManager by INS INVEST",
     "version": "1",
     "slug": "imanager-by-ins-invest-ingossstrakh",
     "bundleId": "com.inv.gen",
@@ -433,7 +433,7 @@ const APPS = [
     "searchTags": "infinity blade 1 4 3"
   },
   {
-    "name": "8PRO",
+    "name": "Infinity Blade",
     "version": "1",
     "slug": "infinity-blade-1-4-3-ios-6-0-selimseidov-gmail-com",
     "bundleId": "com.inv.gen",
@@ -457,7 +457,7 @@ const APPS = [
     "searchTags": "infinity blade ii 1 3 5"
   },
   {
-    "name": "8PRO",
+    "name": "Infinity Blade II",
     "version": "1",
     "slug": "infinity-blade-ii-1-3-5-ios-6-0-selimseidov-gmail-com",
     "bundleId": "com.inv.gen",
@@ -481,7 +481,7 @@ const APPS = [
     "searchTags": "infinity blade iii 1 4 4"
   },
   {
-    "name": "8PRO",
+    "name": "Infinity Blade III",
     "version": "1",
     "slug": "infinity-blade-iii-1-4-4-ios-6-0-selimseidov-gmail-com",
     "bundleId": "com.inv.gen",
@@ -541,7 +541,7 @@ const APPS = [
     "searchTags": "mobio"
   },
   {
-    "name": "8PRO",
+    "name": "Мобио Сбермобайл",
     "version": "1",
     "slug": "mobio-sbermobail",
     "bundleId": "com.inv.gen",
@@ -577,7 +577,7 @@ const APPS = [
     "searchTags": "most wanted"
   },
   {
-    "name": "8PRO",
+    "name": "Most Wanted",
     "version": "1",
     "slug": "most-wanted-1-1-3",
     "bundleId": "com.inv.gen",
@@ -649,7 +649,7 @@ const APPS = [
     "searchTags": "pianowave"
   },
   {
-    "name": "8PRO",
+    "name": "PianoWave Премьер Кинотеатр",
     "version": "1",
     "slug": "pianowave-premer-kinoteatr",
     "bundleId": "com.inv.gen",
@@ -697,7 +697,7 @@ const APPS = [
     "searchTags": "real racing 2"
   },
   {
-    "name": "8PRO",
+    "name": "Real Racing 2",
     "version": "1",
     "slug": "real-racing-2-1-13-50",
     "bundleId": "com.inv.gen",
@@ -733,7 +733,7 @@ const APPS = [
     "searchTags": "scb notes"
   },
   {
-    "name": "8PRO",
+    "name": "SCB Notes Совкомбанк",
     "version": "1",
     "slug": "scb-notes-sovcombank",
     "bundleId": "com.inv.gen",
@@ -805,7 +805,7 @@ const APPS = [
     "searchTags": "slicingdices"
   },
   {
-    "name": "8PRO",
+    "name": "Solar Sun Compass Сбер Инвестиции",
     "version": "1",
     "slug": "solar-sun-compass-sber-investitsii",
     "bundleId": "com.inv.gen",
@@ -841,7 +841,7 @@ const APPS = [
     "searchTags": "speakaboo"
   },
   {
-    "name": "8PRO",
+    "name": "SpeakaBoo Сбер kids",
     "version": "1",
     "slug": "speakaboo-sberkids",
     "bundleId": "com.inv.gen",
@@ -949,7 +949,7 @@ const APPS = [
     "searchTags": "vk music"
   },
   {
-    "name": "8PRO",
+    "name": "VK Music",
     "version": "1",
     "slug": "vk-music-8-30-1",
     "bundleId": "com.inv.gen",
@@ -973,7 +973,7 @@ const APPS = [
     "searchTags": "vk video"
   },
   {
-    "name": "8PRO",
+    "name": "VK Video",
     "version": "1",
     "slug": "vk-video-8-183",
     "bundleId": "com.inv.gen",
@@ -1021,7 +1021,7 @@ const APPS = [
     "searchTags": "yula"
   },
   {
-    "name": "8PRO",
+    "name": "Юла",
     "version": "1",
     "slug": "yula-6-0",
     "bundleId": "com.inv.gen",
@@ -1057,7 +1057,7 @@ const APPS = [
     "searchTags": "yumoney 11 12 0"
   },
   {
-    "name": "8PRO",
+    "name": "ЮMoney",
     "version": "1",
     "slug": "yumoney-11-12-0-ios-13-0-selimseidov-gmail-com",
     "bundleId": "com.inv.gen",
@@ -1081,7 +1081,7 @@ const APPS = [
     "searchTags": "zdorove"
   },
   {
-    "name": "8PRO",
+    "name": "Здоровье и страхование СОГАЗ",
     "version": "1",
     "slug": "zdorove-i-strahovanie-sogaz",
     "bundleId": "com.inv.gen",
@@ -1213,4 +1213,4 @@ const APPS = [
     "iconUrl": "icons/учимся-словам.png",
     "searchTags": "учимся словам"
   }
-];
+]];
