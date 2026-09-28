@@ -1213,4 +1213,4 @@ const APPS = [
     "iconUrl": "icons/учимся-словам.png",
     "searchTags": "учимся словам"
   }
-];
+]];
